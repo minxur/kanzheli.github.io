@@ -1,17 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-30T10:05:49+08:00</updated><id>/</id><title>（要改的）网站名字</title><subtitle>（要改的）不懂单词就百度</subtitle><entry><title>网页的logo更改</title><link href="/%E7%BD%91%E9%A1%B5logo/" rel="alternate" type="text/html" title="网页的logo更改" /><published>2017-12-07T23:45:15+08:00</published><updated>2017-12-07T23:45:15+08:00</updated><id>/网页logo</id><content type="html" xml:base="/%E7%BD%91%E9%A1%B5logo/">&lt;h1 id=&quot;logo&quot;&gt;在网页打开时候，浏览器出现你的logo&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-01T14:57:14+08:00</updated><id>/</id><title>网页设计&amp;可视化学习笔记</title><entry><title>网页的logo更改</title><link href="/%E7%BD%91%E9%A1%B5logo/" rel="alternate" type="text/html" title="网页的logo更改" /><published>2017-12-07T23:45:15+08:00</published><updated>2017-12-07T23:45:15+08:00</updated><id>/网页logo</id><content type="html" xml:base="/%E7%BD%91%E9%A1%B5logo/">&lt;h1 id=&quot;logo&quot;&gt;在网页打开时候，浏览器出现你的logo&lt;/h1&gt;
+
+&lt;h1 id=&quot;logo-1&quot;&gt;这个模板的logo是我的，你要换掉！！！&lt;/h1&gt;
+
+&lt;h1 id=&quot;logo-2&quot;&gt;这个模板的logo是我的，你要换掉！！！&lt;/h1&gt;
+
+&lt;h1 id=&quot;logo-3&quot;&gt;这个模板的logo是我的，你要换掉！！！&lt;/h1&gt;
 
 &lt;h3 id=&quot;keble-college-iconhttpsrawgithubusercontentcomhantenghantenggithubiocf9691a940e8d9527d64553501a90991e9c5f1abapple-touch-iconpng&quot;&gt;老师的网页的中出现的是&lt;img src=&quot;https://raw.githubusercontent.com/hanteng/hanteng.github.io/cf9691a940e8d9527d64553501a90991e9c5f1ab/apple-touch-icon.png&quot; alt=&quot;Keble College Icon&quot; /&gt;&lt;/h3&gt;
 
-&lt;h3 id=&quot;logo-1&quot;&gt;我们需要给自己的网页定制一个logo&lt;/h3&gt;
+&lt;h3 id=&quot;logo-4&quot;&gt;我们需要给自己的网页定制一个logo&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;具体我们看老师的模板第一次&lt;a href=&quot;https://github.com/hanteng/hanteng.github.io/commit/cf9691a940e8d9527d64553501a90991e9c5f1ab&quot;&gt;提交内容&lt;/a&gt;,老师对图标的修改内容。&lt;/li&gt;
+  &lt;li&gt;具体我们看老师的模板第一次提交内容https://github.com/hanteng/hanteng.github.io/commit/cf9691a940e8d9527d64553501a90991e9c5f1ab&lt;/li&gt;
+  &lt;li&gt;看老师对图标的修改内容。&lt;/li&gt;
   &lt;li&gt;logo可以由ai做，导出png档&lt;/li&gt;
-  &lt;li&gt;老师提供了一个logo制作网页&lt;a href=&quot;&amp;quot;https://realfavicongenerator.net/favicon_result?file_id=p1c0fpm1o81ht6kse1cl5187h1bi06&amp;quot;&quot;&gt;Favicon Generator. For real.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;老师提供了一个logo制作网页Favicon Generator. For real(“https://realfavicongenerator.net/favicon_result?file_id=p1c0fpm1o81ht6kse1cl5187h1bi06”)&lt;/li&gt;
   &lt;li&gt;把自己的logo的png档提交上去&lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;http://m.qpic.cn/psb?/V11lWaBD125a7z/mIwotUyXpduLmJtc7ejwFNWzyWxwqpAsV3o6Aa2Ipas!/b/dPMAAAAAAAAA&amp;amp;bo=vQEyAQAAAAADB60!&amp;amp;rf=viewer_4&amp;quot;&quot; alt=&quot;提交步骤一&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;http://m.qpic.cn/psb?/V11lWaBD125a7z/LO1OXEu7.6k.Dcgv95a3fei970AtY2ZfLZ2vTlBAcds!/b/dPIAAAAAAAAA&amp;amp;bo=7wJ8AQAAAAADB7I!&amp;amp;rf=viewer_4&amp;quot;&quot; alt=&quot;提交步骤二&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;http://m.qpic.cn/psb?/V11lWaBD125a7z/iq5HtsS*hP8jBx5uyriNKeWDSIPYx.cbzQfk2pNOW2s!/b/dPMAAAAAAAAA&amp;amp;bo=WwNsAQAAAAADFwc!&amp;amp;rf=viewer_4&amp;quot;&quot; alt=&quot;提交步骤三&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;看不到文件就去&lt;a href=&quot;https://github.com/treeice/PhotoForUrl&quot;&gt;我的仓库&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤一.png&amp;quot;&quot; alt=&quot;提交步骤一,看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤二.png&amp;quot;&quot; alt=&quot;提交步骤二，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤三.png&amp;quot;&quot; alt=&quot;提交步骤三，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
   &lt;li&gt;
     &lt;ul&gt;
       &lt;li&gt;以下步骤，该模板以完成&lt;/li&gt;
@@ -29,7 +37,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;img src=&quot;&amp;quot;http://m.qpic.cn/psb?/V11lWaBD125a7z/zRrlX1THkWrfP4od0OScCPgvq4crH2S1QYxCoGZPxV8!/b/dPMAAAAAAAAA&amp;amp;bo=3gLSAAAAAAADFzw!&amp;amp;rf=viewer_4&amp;quot;&quot; alt=&quot;提交步骤四&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤四.png&amp;quot;&quot; alt=&quot;提交步骤四，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -39,14 +47,14 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;img src=&quot;&amp;quot;http://m.qpic.cn/psb?/V11lWaBD125a7z/lctVGi3RoIf.RO2ZvJ6EsO3mTSj4d6.*NnLw9DQMB8I!/b/dPMAAAAAAAAA&amp;amp;bo=1QE7AQAAAAADF9w!&amp;amp;rf=viewer_4&amp;quot;&quot; alt=&quot;提交步骤五&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤五.png&amp;quot;&quot; alt=&quot;提交步骤五，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;section&quot;&gt;以上步骤，该模板以完成&lt;/h2&gt;
     &lt;p&gt;# 接下来&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;引用代码填写完后，把刚刚压缩包的文件打开，直接把六个文件放入你的网页文件夹之中，位置观看老师&lt;a href=&quot;https://github.com/hanteng/hanteng.github.io/commit/cf9691a940e8d9527d64553501a90991e9c5f1ab&quot;&gt;提交内容&lt;/a&gt;，不需要单独放入一个文件夹&lt;/li&gt;
+  &lt;li&gt;引用代码填写完后，把刚刚压缩包的文件打开，直接把六个文件放入你的网页文件夹之中，位置观看老师提交内容，不需要单独放入一个文件夹&lt;/li&gt;
   &lt;li&gt;
     &lt;ul&gt;
       &lt;li&gt;apple-touch-icon-precomposed.png&lt;/li&gt;
@@ -77,29 +85,44 @@
       &lt;li&gt;manifest.json&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;http://m.qpic.cn/psb?/V11lWaBD125a7z/Sh8Ie6X3uk8k5.C3cd6catNhZ.GCxEcRdbTKQIDN6fE!/b/dD8BAAAAAAAA&amp;amp;bo=jwKyAQAAAAADBxw!&amp;amp;rf=viewer_4&amp;quot;&quot; alt=&quot;提交步骤六&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤六.png&amp;quot;&quot; alt=&quot;提交步骤六&quot; /&gt;&lt;/li&gt;
   &lt;li&gt;然后logo就生成换好了。&lt;/li&gt;
 &lt;/ul&gt;</content><summary>在网页打开时候，浏览器出现你的logo</summary></entry><entry><title>博客文章介绍</title><link href="/%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE/" rel="alternate" type="text/html" title="博客文章介绍" /><published>2017-11-30T00:00:00+08:00</published><updated>2017-11-30T00:00:00+08:00</updated><id>/一些建议</id><content type="html" xml:base="/%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE/">&lt;h1 id=&quot;notepadconfigyml&quot;&gt;首先做这个，最重要的一步，用notepad++打开_config.yml文件&lt;/h1&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 在文件里面把个人信息修改掉。
+
+&lt;ul&gt;
+  &lt;li&gt;在文件里面把个人信息修改掉。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;一。你现在看到的就是我写的博文&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;你现在看到的就是我写的博文，存放在_post文件夹里面的&lt;/li&gt;
+  &lt;li&gt;为了归类：&lt;/li&gt;
+  &lt;li&gt;infovis文件夹放可视化作品的博文&lt;/li&gt;
+  &lt;li&gt;rwd文件夹放网页设计作品的博文&lt;/li&gt;
+  &lt;li&gt;当然也可以放外面&lt;/li&gt;
+  &lt;li&gt;我写的这篇文章和这两个主题都无关，所以不放入&lt;/li&gt;
+  &lt;li&gt;支持markdown格式https://www.jianshu.com/p/q81RER&lt;/li&gt;
+  &lt;li&gt;文件后缀就是markdown的缩写md结尾。&lt;/li&gt;
+  &lt;li&gt;教程http://wiki.jikexueyuan.com/project/jekyll/posts.html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;1.有道云&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;可以看到markdown格式的效果，&lt;/li&gt;
+  &lt;li&gt;所以先写在有道云&lt;/li&gt;
+  &lt;li&gt;如果效果正确，就再copy过来&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;2.博文的文件名字格式是固定的格式：&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;年-月-日-文件名.md
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;一。你现在看到的就是我放文章的博文&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;你现在看到的就是我写的博文，存放在_post文件夹里面&lt;/li&gt;
-  &lt;li&gt;支持&lt;a href=&quot;https://www.jianshu.com/p/q81RER&quot;&gt;markdown格式&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;文件后缀就是markdown的缩写md结尾。
-#### 1.有道云&lt;/li&gt;
-  &lt;li&gt;可以看到markdown格式的效果，&lt;/li&gt;
-  &lt;li&gt;所以先写在有道云&lt;/li&gt;
-  &lt;li&gt;如果效果正确，就再copy过来
-#### 2.博文的文件名字格式是固定的格式：
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-年-月-日-文件名.md
-&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;section-3&quot;&gt;二。可视化的博文和网页设计的博文有区别&lt;/h2&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;二。可视化的博文和网页设计的博文有区别&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;在_post文件夹里面找到我写的这个【2017-11-30-一些建议.md】&lt;/li&gt;
   &lt;li&gt;用notepad+ 打开&lt;/li&gt;
@@ -131,7 +154,22 @@ categories:&lt;br /&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;ul&gt;
-      &lt;li&gt;老师的其中一篇博客文章 &lt;a href=&quot;https://hanteng.github.io/notes_tech/jekyll/Ruby/&quot;&gt;先自裝Ruby&lt;/a&gt; ，看这个文件的时候，你会看到老师的 &lt;a href=&quot;https://github.com/hanteng/hanteng.github.io/blob/master/_posts/2017-11-30-Ruby.md&quot;&gt;博客文件&lt;/a&gt;在categories 后面填写notes_tech和 Jekyll,注意&lt;a href=&quot;https://hanteng.github.io/notes_tech/jekyll/Ruby/&quot;&gt;先自裝Ruby&lt;/a&gt;网址最后面出现了/notes_tech/jekyll//Ruby，其中最后的ruby是老师的博客文件名，而前两个notes_tech和 Jekyll就是老师在博客里写的&lt;/li&gt;
+      &lt;li&gt;老师的其中一篇博客文章 先自裝Rubyhttps://hanteng.github.io/notes_tech/jekyll/Ruby/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;看这个文件的时候，你会看到老师的 博客文件https://github.com/hanteng/hanteng.github.io/blob/master/_posts/2017-11-30-Ruby.md&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;在categories 后面填写notes_tech和 Jekyll,注意先自裝Rubyhttps://hanteng.github.io/notes_tech/jekyll/Ruby/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;网址最后面出现了/notes_tech/jekyll//Ruby，其中最后的ruby是老师的博客文件名，而前两个notes_tech和 Jekyll就是老师在博客里写的&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;所以对应的博文categories按照下面的填&lt;/li&gt;
@@ -165,30 +203,16 @@ categories:&lt;br /&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;三。作品放在&lt;/h2&gt;
+&lt;h2 id=&quot;section-4&quot;&gt;三。作品放在&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;这个模板的目录已经改好为两个个人作品集&lt;/li&gt;
-  &lt;li&gt;具体的文件是在_data文件的navigation.yml&lt;/li&gt;
-  &lt;li&gt;infovis 文件夹放信息可视化作品集，放在index.md&lt;/li&gt;
-  &lt;li&gt;portfolio 文件夹放网页设计作品集，放在index.md&lt;/li&gt;
+  &lt;li&gt;想了解的话，参考文章https://ccwwen.github.io/rwd/%E5%A6%82%E4%BD%95%E5%A2%9E%E5%8A%A0%E5%AF%BC%E8%88%AA%E6%A0%8F%E8%BF%9B%E4%B8%80%E6%AD%A5%E7%9A%84%E9%A1%B5%E9%9D%A2/&lt;/li&gt;
+  &lt;li&gt;具体的栏的信息是在_data文件的navigation.yml&lt;/li&gt;
+  &lt;li&gt;infovis 文件夹放信息可视化作品集，放在index.html&lt;/li&gt;
+  &lt;li&gt;portfolio 文件夹放网页设计作品集，放在index.html&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;httpsgithubcomhantenghantenggithubiocommitsmaster&quot;&gt;具体老师的要求看他的&lt;a href=&quot;https://github.com/hanteng/hanteng.github.io/commits/master&quot;&gt;提交内容&lt;/a&gt;，再对应文件上做修改&lt;/h1&gt;</content><summary>首先做这个，最重要的一步，用notepad++打开_config.yml文件
-- 在文件里面把个人信息修改掉。
-
-
-
-一。你现在看到的就是我放文章的博文
-
-  你现在看到的就是我写的博文，存放在_post文件夹里面
-  支持markdown格式
-  文件后缀就是markdown的缩写md结尾。
-#### 1.有道云
-  可以看到markdown格式的效果，
-  所以先写在有道云
-  如果效果正确，就再copy过来
-#### 2.博文的文件名字格式是固定的格式：
-
-年-月-日-文件名.md</summary></entry></feed>
+&lt;h1 id=&quot;httpsgithubcomhantenghantenggithubiocommitsmaster&quot;&gt;具体老师的要求看他的提交内容https://github.com/hanteng/hanteng.github.io/commits/master，再对应文件上做修改&lt;/h1&gt;</content><summary>首先做这个，最重要的一步，用notepad++打开_config.yml文件</summary></entry></feed>
