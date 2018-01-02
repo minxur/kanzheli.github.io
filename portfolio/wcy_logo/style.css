@@ -1,0 +1,15 @@
+.item {
+	background-image: url('wcy_logo.svg');
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	animation: spin 8s;
+}
+@keyframes spin {
+0% {
+	transform: rotate(30deg);
+}
+100% {
+	transform: rotate(280deg);
+}
+}
