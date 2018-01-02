@@ -1,218 +1,1055 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-01T14:57:14+08:00</updated><id>/</id><title>网页设计&amp;可视化学习笔记</title><entry><title>网页的logo更改</title><link href="/%E7%BD%91%E9%A1%B5logo/" rel="alternate" type="text/html" title="网页的logo更改" /><published>2017-12-07T23:45:15+08:00</published><updated>2017-12-07T23:45:15+08:00</updated><id>/网页logo</id><content type="html" xml:base="/%E7%BD%91%E9%A1%B5logo/">&lt;h1 id=&quot;logo&quot;&gt;在网页打开时候，浏览器出现你的logo&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-02T14:32:36+08:00</updated><id>/</id><title>网页设计&amp;可视化学习笔记</title><entry><title>第五章笔记</title><link href="/posts/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>/posts/rwd/第六章笔记</id><content type="html" xml:base="/posts/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;h1 id=&quot;css3&quot;&gt;第六章	CSS3高级技术&lt;/h1&gt;
 
-&lt;h1 id=&quot;logo-1&quot;&gt;这个模板的logo是我的，你要换掉！！！&lt;/h1&gt;
+&lt;h2 id=&quot;css3-1&quot;&gt;6.1 CSS3的文字阴影特效&lt;/h2&gt;
 
-&lt;h1 id=&quot;logo-2&quot;&gt;这个模板的logo是我的，你要换掉！！！&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;text-shadow&lt;/strong&gt;：缩写值的规则是先右后下
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+.element {
+    text-shadow: 1px 1px 1px #ccc;
+}
+&lt;/code&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;logo-3&quot;&gt;这个模板的logo是我的，你要换掉！！！&lt;/h1&gt;
+&lt;p&gt;想让阴影往左上方偏移，可以使用负值，色值也可以使用hsl（a）或者rgb（a）&lt;/p&gt;
 
-&lt;h3 id=&quot;keble-college-iconhttpsrawgithubusercontentcomhantenghantenggithubiocf9691a940e8d9527d64553501a90991e9c5f1abapple-touch-iconpng&quot;&gt;老师的网页的中出现的是&lt;img src=&quot;https://raw.githubusercontent.com/hanteng/hanteng.github.io/cf9691a940e8d9527d64553501a90991e9c5f1ab/apple-touch-icon.png&quot; alt=&quot;Keble College Icon&quot; /&gt;&lt;/h3&gt;
+&lt;p&gt;通过媒体查询在特定的视口下去除文字阴影效果。使用 none 值即可&lt;/p&gt;
 
-&lt;h3 id=&quot;logo-4&quot;&gt;我们需要给自己的网页定制一个logo&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;如果你不需要给文字阴影添加模糊效果，那么可以在声明中把blur值省略&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;具体我们看老师的模板第一次提交内容https://github.com/hanteng/hanteng.github.io/commit/cf9691a940e8d9527d64553501a90991e9c5f1ab&lt;/li&gt;
-  &lt;li&gt;看老师对图标的修改内容。&lt;/li&gt;
-  &lt;li&gt;logo可以由ai做，导出png档&lt;/li&gt;
-  &lt;li&gt;老师提供了一个logo制作网页Favicon Generator. For real(“https://realfavicongenerator.net/favicon_result?file_id=p1c0fpm1o81ht6kse1cl5187h1bi06”)&lt;/li&gt;
-  &lt;li&gt;把自己的logo的png档提交上去&lt;/li&gt;
-  &lt;li&gt;看不到文件就去&lt;a href=&quot;https://github.com/treeice/PhotoForUrl&quot;&gt;我的仓库&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤一.png&amp;quot;&quot; alt=&quot;提交步骤一,看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤二.png&amp;quot;&quot; alt=&quot;提交步骤二，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤三.png&amp;quot;&quot; alt=&quot;提交步骤三，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;以下步骤，该模板以完成&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;生成后，把文件压缩包下载下来，其中黑框的代码，是引用logo的代码，在jekyll里面，网页的各种信息是存放在不同位置，然后通过统一的引用就能加入所有的网页中去&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;这里，我们在_includes文件夹中创建一个名为favicon.html的文件。在里面把那几行代码填入：&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤四.png&amp;quot;&quot; alt=&quot;提交步骤四，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;然后打开_layout文件夹下的_default.html文件夹，把刚刚创建的favicon.html的文件加入网页之中，格式是大括号{\% \%}，里面填写引用代码的文件位置，这里是 include favicon.html 两个位置。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤五.png&amp;quot;&quot; alt=&quot;提交步骤五，看到这句话说明，图片加载不出来&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;section&quot;&gt;以上步骤，该模板以完成&lt;/h2&gt;
-    &lt;p&gt;# 接下来&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;引用代码填写完后，把刚刚压缩包的文件打开，直接把六个文件放入你的网页文件夹之中，位置观看老师提交内容，不需要单独放入一个文件夹&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;apple-touch-icon-precomposed.png&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;apple-touch-icon.png&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;favicon-16x16.png&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;favicon-32x32.png&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;favicon.ico&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;manifest.json&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;&amp;quot;https://github.com/treeice/PhotoForUrl/步骤六.png&amp;quot;&quot; alt=&quot;提交步骤六&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;然后logo就生成换好了。&lt;/li&gt;
-&lt;/ul&gt;</content><summary>在网页打开时候，浏览器出现你的logo</summary></entry><entry><title>博客文章介绍</title><link href="/%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE/" rel="alternate" type="text/html" title="博客文章介绍" /><published>2017-11-30T00:00:00+08:00</published><updated>2017-11-30T00:00:00+08:00</updated><id>/一些建议</id><content type="html" xml:base="/%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE/">&lt;h1 id=&quot;notepadconfigyml&quot;&gt;首先做这个，最重要的一步，用notepad++打开_config.yml文件&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;我们可以添加多个阴影效果，通过逗号分隔即可&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;在文件里面把个人信息修改掉。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;section&quot;&gt;6.2 盒阴影&lt;/h2&gt;
+&lt;p&gt;盒阴影容许你在元素的内部或者外部创建盒状的阴影效果&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;一。你现在看到的就是我写的博文&lt;/h2&gt;
+&lt;p&gt;它们遵循相同的语法：&lt;strong&gt;水平偏移值、垂直偏移值、模糊距离、阴影尺寸、阴影颜色&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;你现在看到的就是我写的博文，存放在_post文件夹里面的&lt;/li&gt;
-  &lt;li&gt;为了归类：&lt;/li&gt;
-  &lt;li&gt;infovis文件夹放可视化作品的博文&lt;/li&gt;
-  &lt;li&gt;rwd文件夹放网页设计作品的博文&lt;/li&gt;
-  &lt;li&gt;当然也可以放外面&lt;/li&gt;
-  &lt;li&gt;我写的这篇文章和这两个主题都无关，所以不放入&lt;/li&gt;
-  &lt;li&gt;支持markdown格式https://www.jianshu.com/p/q81RER&lt;/li&gt;
-  &lt;li&gt;文件后缀就是markdown的缩写md结尾。&lt;/li&gt;
-  &lt;li&gt;教程http://wiki.jikexueyuan.com/project/jekyll/posts.html&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;（默认的 box-shadow 是设置在元素外部的。另外一个可选关键词 inset 容许在元素内部使用box-shadow）&lt;/p&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;1.有道云&lt;/h4&gt;
+&lt;p&gt;内阴影：box-shadow 属性可以用于建立一个 inset 阴影。使用的语法和普通盒阴影效果唯一的区别是，在前头添加了 inset 关键字&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;可以看到markdown格式的效果，&lt;/li&gt;
-  &lt;li&gt;所以先写在有道云&lt;/li&gt;
-  &lt;li&gt;如果效果正确，就再copy过来&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;section-2&quot;&gt;2.博文的文件名字格式是固定的格式：&lt;/h4&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;年-月-日-文件名.md
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.inset {
+    box-shadow: inset 0 0 40px #000;
+}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;二。可视化的博文和网页设计的博文有区别&lt;/h2&gt;
+&lt;p&gt;多重阴影：&lt;strong&gt;使用逗号分隔 box-shadow&lt;/strong&gt; ，它们会按照从底部到顶部（从最后一个到第一个）的顺序被添加&lt;/p&gt;
+
+&lt;p&gt;阴影尺寸：一个负值可以在各个方向上缩小阴影的效果。最终效果就是我们只看到底部有阴影，而不是看到阴影全方位地“泄露”出来&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;6.3 背景渐变&lt;/h2&gt;
+
+&lt;p&gt;线性渐变语法：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.linear-gradient {
+    background: linear-gradient(red, blue);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;在_post文件夹里面找到我写的这个【2017-11-30-一些建议.md】&lt;/li&gt;
-  &lt;li&gt;用notepad+ 打开&lt;/li&gt;
-  &lt;li&gt;这个文件的最开始有几行被三个—围起来的代码&lt;/li&gt;
+  &lt;li&gt;确定渐变方向
+当没有设置方向的时候，渐变会默认从顶部到底部&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;blockquote&gt;
-  &lt;hr /&gt;
-  &lt;p&gt;layout: default
-title:  “博客文章介绍”
-categories:&lt;br /&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.linear-gradient {
+    background: linear-gradient(to top right, red, blue);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;渐变的方向设定为顶部右侧&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.linear-gradient {
+    background: linear-gradient(45deg, red, blue);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;指向45度的渐变（总是指向45度）&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.linear-gradient {
+    background: linear-gradient(red -50%, blue);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;这样渐变会在容器内部不可见的地方就开始渲染&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;色标&lt;/li&gt;
+  &lt;li&gt;它们用于把渐变中的某个点设定为特定颜色，可以使用色标定义复杂的渐变效果&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;渐变效果中的色标是用逗号进行分隔的。第一部分是颜色，第二部分是颜色的位置&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;6.3.2 径向渐变背景&lt;/h2&gt;
+
+&lt;p&gt;效果一般是从一个中心发散成为圆形或者椭圆形的渐变效果&lt;/p&gt;
+
+&lt;h6 id=&quot;section-3&quot;&gt;语法：&lt;/h6&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.radial-gradient {
+    margin: 1rem;
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(12rem circle at bottom, yellow,
+    orange, red);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在 background 属性后，我们设定 radial-gradient 。在第一个逗号前，我们定义渐变形
+状、大小和所在位置。&lt;/p&gt;
+
+&lt;h6 id=&quot;section-4&quot;&gt;其他做法：&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;at top right 表示径向渐变的中心在右上方&lt;/li&gt;
+  &lt;li&gt;at right 100px top 20px 表示径向渐变的中心在距右边框100像素、上边框20像素处。&lt;/li&gt;
+  &lt;li&gt;at center left 表示径向渐变的中心在左边框中间处。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;总结一下，在第一个逗号前设置大小、形状和位置，然后设置需要的色标（每个色标之间用逗号分隔）。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;6.3.3 为响应式而生的关键字&lt;/h2&gt;
+
+&lt;p&gt;按照比例设置渐变效果大小比按照固定像素设置更为有用：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;background: radial-gradient(closest-side circle at center, #333,blue);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;section-6&quot;&gt;关键词：&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;closest：在渐变形状为圆形的情况下，渐变形状会与距离中心最近的边框相切；在椭圆形的情况下，则会与距离中心最近的两个边框相切。&lt;/li&gt;
+  &lt;li&gt;closest-corner ：渐变形状会与距离中心最近的角相切。&lt;/li&gt;
+  &lt;li&gt;farthest-side：和 closest-side 相反。在圆形的情况下，与距离中心最远的边相切。&lt;/li&gt;
+  &lt;li&gt;farthest-corner ：渐变形状会与距离中心最远的角相切&lt;/li&gt;
+  &lt;li&gt;cover ：等价于 farthest-corner 。&lt;/li&gt;
+  &lt;li&gt;contain ：等价于 closest-side 。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;6.4 重复渐变&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.repeating-radial-gradient {
+		background: repeating-radial-gradient(black 0px, orange 5px, red10px);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;6.6 多张背景图片&lt;/h2&gt;
+
+&lt;p&gt;在页面顶部和底部使用不同的背景图片，或者在页面某个内容区的顶部和底部使用不同的背景图片&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.bg {
+background:
+    url(&#39;../img/1.png&#39;),
+    url(&#39;../img/2.png&#39;),
+    url(&#39;../img/3.png&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;和多重阴影的堆叠顺序一样，图片列表中先出现的图片会被安置在越靠近用户的位置
+也可以添加背景颜色：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;url(&#39;../img/3.png&#39;) left bottom, black;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;6.6.1 背景大小&lt;/h2&gt;
+&lt;p&gt;可以使用背景大小（ background-size ）属性为每个图片设置大小&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.bg {
+    background-size: 100% 50%, 300px 400px, auto;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;每张图片的大小（第一个是宽度，第二个是高度）按照它们在背景属性中的顺序声明，用逗号分隔。
+- auto：让图片保持其原生大小
+- cover：保持图片比例，拓展至覆盖整个元素
+- contain：保持图片比例，拓展图片让其最长边保持在元素内部&lt;/p&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;6.8 CSS滤镜&lt;/h2&gt;
+&lt;p&gt;CSS滤镜的格式：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.filter-drop-shadow {
+filter: drop-shadow(8px 8px 6px #333);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;drop-shadow 和 box-shadow 拥有相似的语法；X方向偏移量、Y方向偏移量、模糊大小、阴影尺寸（上述两个值都是可选的）和颜色&lt;/p&gt;
+
+&lt;h5 id=&quot;css-1&quot;&gt;可用的CSS滤镜：&lt;/h5&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter: url (&#39;./img/filters.svg#filterRed&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;首先定义一个SVG滤镜来使用。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:blur(3px)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;使用一个简单的长度值（不是百分比）。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:brightness(2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0到1的值或者从0%到100%的值。&lt;/p&gt;
+
+&lt;p&gt;（0/0%意味着全黑，1/100%意味着正常没有变化，而任何更高的值意味着更高的亮度）&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:contrast(2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0到1的值或者从0%到100%的值。同上&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:drop-shadow(4px 4px 6px #333
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:grayscale(.8)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0到1或者从0%到100%的值来表示元素灰度化的程度。
+（0表示没有灰度化，而1表示完全灰度化。）&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:hue-rotate(25deg)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0度到360度表示颜色在色轮上的变化角度&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:invert(75%)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0到1的值或者从0%到100%表示元素中反色的程度。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:opacity(50%)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0到1的值或者从0%到100%的值来改变元素的透明度。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:saturate(15%)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0到1的值或者从0%到100%来表示图像的饱和度。
+（高于1/100%的值会增加额外的饱和度）&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;filter:sepia(.74)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;使用从0到1的值或者从0%到100%来为元素添加褐色滤镜。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;可以使用多个滤镜，用空格分隔它们即可。&lt;/li&gt;
+&lt;/ul&gt;</content><summary>第六章	CSS3高级技术</summary></entry><entry><title>第五章笔记</title><link href="/posts/rwd/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2017-12-31T00:00:00+08:00</published><updated>2017-12-31T00:00:00+08:00</updated><id>/posts/rwd/第五章笔记</id><content type="html" xml:base="/posts/rwd/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;h1 id=&quot;css&quot;&gt;第五章	CSS新特性&lt;/h1&gt;
+
+&lt;h2 id=&quot;css-1&quot;&gt;5.2 解剖CSS规则&lt;/h2&gt;
+
+&lt;h5 id=&quot;css-2&quot;&gt;CSS规则构成：&lt;/h5&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.round {  /*选择符*/
+		Border-radius : 10px  /*声明*/
+	}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;## 5.3 便捷的CSS技巧&lt;/p&gt;
+
+&lt;h5 id=&quot;css-3&quot;&gt;CSS响应式多列布局：&lt;/h5&gt;
+&lt;p&gt;使用CSS多列布局可以通过几种方式让文本分成多列显示。可以给每一列设定固定的列宽，也可以指定内容需要填充的列数&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;固定宽度，可变列数
+```
+main {
+        column-width：12em
+}&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2.	固定列数，可变宽度
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;main {
+    column-count : 4;
+}&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;3.	添加列间距和分隔线
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Main{
+		Column-gap：2em;
+		Colum-rule: thin dotted #999;
+		Colum-width:12em;
+	}
+```
+## 5.4 断字
+&lt;strong&gt;：word-wrap：break-word&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;5.5 截短文本&lt;/h2&gt;
+&lt;p&gt;只要内容超出既定宽度（如果是在一个弹性容器里，可以设置为100%），就会被截短。最后的 white-space: nowrap 声明是为了确保长出来的文本不会折行显示在外部元素中。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;5.4.2 创建水平滚动版面&lt;/h2&gt;
+
+&lt;p&gt;为了让这个技术起作用，只需用一个比所有内容加起来都窄的容器，将其X轴的overflow设置为auto。这样，他会在空间足够的情况下不提供滚动机制，而在空间不够时显示滚动条。
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+.Scroll_Wrapper {
+    width: 100%;
+    white-space: nowrap;		  
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.Item {
+    display: inline-flex;
+}
+&lt;/code&gt;
+## 5.5 在CSS中创建分支
+在CSS中，创建分支有两种手段，一是完全基于CSS，但支持的浏览器却不多二是借助JavaScript库，获得广泛兼容性&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;特性查询：CSS原生的分支语法就是特性查询&lt;/li&gt;
+  &lt;li&gt;组合条件：这里用的是and关键字，支持的关键字还有or&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;css3&quot;&gt;5.6 新CSS3选择符&lt;/h2&gt;
+&lt;p&gt;属性选择符：其中的选择符选择任何包含alt属性的元素&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[data-sausage] {
+    /* 样式 */
+}	
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;进一步缩小范围：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Img [alt=”sausages”] {
+    /*样式*/
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;## 5.6.2 CSS3子字符串匹配属性选择符&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;以….开头
+```
+img[alt^=”film”] {
+ /* 样式 */
+}&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这里关键是 ^ 符号，它表示“以……开头”
+
+2. 包含…
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;[attribute&lt;em&gt;=”value”] {			
+	/&lt;/em&gt; 样式 */
+}&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这里面关键是 * 符号，它的意思是“包含……”。
+
+
+3. 以…结尾
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;[attribute$=”value”] {	
+/* 样式 */
+}&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这里关键是 $ 符号，意思是“以……结尾”
+
+
+**“空格分隔的“属性选择符（注意~符号）**
+
+## 5.7 CSS3结构化伪类
+
+1.	：last-child
+
+第一项：
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;div:first-child {	
+    /* 样式 &lt;em&gt;/		
+}
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+最后一项：
+&lt;/code&gt;
+div:last-child {	
+    /&lt;/em&gt; 样式 */		
+}
+```&lt;/p&gt;
+
+&lt;p&gt;2.nth-child&lt;/p&gt;
+
+&lt;p&gt;奇数个：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.nav-Link:nth-child(odd) {	
+    /* 样式 */		
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;偶数个
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+.nav-Link:nth-child(even) {	
+    /* 样式 */		
+}
+&lt;/code&gt;
+## 5.7.3 理解nth&lt;/p&gt;
+
+&lt;h6 id=&quot;nth&quot;&gt;几个基于nth的规则：&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;nth-child(n)&lt;/li&gt;
+  &lt;li&gt;nth-last-child(n)&lt;/li&gt;
+  &lt;li&gt;nth-of-type(n)&lt;/li&gt;
+  &lt;li&gt;nth-last-of-type(n)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;前面已经展示了可以在 nth-child 后面使用 (odd) 和 (even) 分别选择奇数和偶数个元素&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;传入整数&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;传入数值表达式&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;:not：表示“取反”，这个选择符用于选择“非……”&lt;/li&gt;
+  &lt;li&gt;:empty ：隐藏&lt;/li&gt;
+  &lt;li&gt;:first-line：选择的目标根据视口大小不同而不同&lt;/li&gt;
+  &lt;li&gt;:root ：吧自定义属性保存在文档根元素上（可以保存到任何规则中）&lt;/li&gt;
+  &lt;li&gt;CSS calc ：calc()函数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.thing {
+    width: calc(50% - 10px);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;## 5.10 CSS Level4选择符&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;:has伪类&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a:has(figcaption) {
+    padding: 1rem;		  
+}	
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;这条规则可以给一个包含 figcaption 的 a 标签添加内边距&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;5.10.2 相对视口的长度&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;vw：视口宽度&lt;/li&gt;
+  &lt;li&gt;vh：视口高度&lt;/li&gt;
+  &lt;li&gt;wmin：视口中的最小值，等于vw或vh中较小的值&lt;/li&gt;
+  &lt;li&gt;vmax：视口中的最大值，等于vm或vh中较大的值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;web&quot;&gt;5.11 Web排版&lt;/h2&gt;
+&lt;p&gt;CSS提供了 @font-face 规则，用于引用在线字体显示文本&lt;/p&gt;
+
+&lt;h2 id=&quot;css3-1&quot;&gt;5.12 CSS3的新颜色格式及透明度&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;RGB：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;RGB（Red Green Blue，红绿蓝）是一种沿用了几十年的颜色系统，原理是分别定义红、绿、蓝三原色分量的值。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.redness {
+color: rgb(254, 2, 8);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;HSL：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;HSL（Hue Saturation Lightness，色相、饱和度、亮度）颜色系统。
+	HSL值中的第一个设置Hue，即色相。
+	后面两个值分别定义饱和度和亮度，以百分比形式给出。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;alpha 通道.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;只是必须声明值为hsla（在hsl后面加个a），同时再多指定一个不透明度值，取值范围为0（完全透明）到1（完全不透明）&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.redness-alpha {
+color: hsla(359, 99%, 50%, .5);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><summary>第五章	CSS新特性</summary></entry><entry><title>博客文章介绍</title><link href="/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="博客文章介绍" /><published>2017-12-30T00:00:00+08:00</published><updated>2017-12-30T00:00:00+08:00</updated><id>/第四章笔记</id><content type="html" xml:base="/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;h1 id=&quot;html5web&quot;&gt;第四章	HTML5与响应式Web设计&lt;/h1&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;4.2	网页元素&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;==Doctype==：doctype是告诉浏览器文档类型的手段，如果没有这一行，浏览器将不知道如何处理后面的内容
+######  HTML5文档的第一行是doctype声明：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;==HTML标签与lang属性==&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Doctype声明之后是开发的HTML标签，也是文档的根标签。我们使用了lang属性指定文档语言，然后是head标签：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;		&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;”en”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;==字符编码 ：meta charset=“utf-8”==&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;==&amp;lt; a&amp;gt;标签==： html5可以把多个元素放到一个&lt;a&gt;标签里&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;（唯一的限制是不能把另一个&amp;lt; a&amp;gt;标签或button之类的交互性元素放到同一个 &amp;lt; a&amp;gt;标签里，另外也不能把表单放到&amp;lt; a&amp;gt;标签里）&lt;/p&gt;
+
+&lt;h2 id=&quot;html5&quot;&gt;4.4.	HTML5的新语义&lt;/h2&gt;
+
+&lt;p&gt;“语义”定义：含义在语言或逻辑方面的分支（语义就是赋予标记含义）&lt;/p&gt;
+
+&lt;p&gt;-作为网页编写者，会给相应的div元素起个好理解的名字&lt;/p&gt;
+
+&lt;h6 id=&quot;section-1&quot;&gt;新元素：&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;==&amp;lt; main&amp;gt;元素== ：用main标签来声明主内容区&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;（无论是网页中的主要内容还是web应用中的主要部分，都应该放到main元素中。每个页面的主内容区只能有一个）&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;==&amp;lt; section&amp;gt;元素==：section元素用于定义文档或应用中一个通用的区块&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;（关键是要知道这个元素不是为应用样式而存在的，用section包装可见组件）&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;==&amp;lt; nav&amp;gt;元素==：&amp;lt;nav&amp;gt;元素用于包装指向其他页面或同一页面中不同部分的主导航链接&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;（如果你通常使用无序列表（ &amp;lt; ul&amp;gt;）和列表标签（ &amp;lt; li&amp;gt;）来写导航，那最好改成用 nav 嵌套多个 a 标签）&lt;/em&gt;
+- 	==&amp;lt; article&amp;gt;元素==：用于包含一个独立的内容块
+- 	==&amp;lt; aside&amp;gt;元素==：用于包含与其旁边内容不相关的内容 / 包装侧边栏&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;（这个元素也适合包装突出引用、广告和导航元素。基本上任何与主内容无直接关系的，都可以放在这里边）&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;==&amp;lt; figure&amp;gt;和&amp;lt; figcaption&amp;gt;元素==：可用于包含注解、图示、照片、代码等等&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;==&amp;lt; detail&amp;gt;和&amp;lt; summary&amp;gt;元素==：在页面中添加一个“展开”/“收起”的部件，用户单击一段摘              要，就会打开相应的补充内容面板&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;==&amp;lt; header&amp;gt;元素==：可以将 &amp;lt; header&amp;gt; 元素用在站点页头作为“报头&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;==&amp;lt; footer&amp;gt;元素==：在相应区块中包含与区块相关的内容，可以包含指向其他文档的链接，
+或者版权声明。同时用它包含文章正文的末尾部分&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;==&amp;lt; address&amp;gt;元素==：&amp;lt; address&amp;gt; 元素明显用于标记联系人信息，为最接近的  &amp;lt; article&amp;gt; 或  &amp;lt; body&amp;gt; 所用&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;==H1到h6==：h1 到 h6 元素不能用于标记副标题、字幕、广告语，除非想把它们用作新
+区块或子区块的标题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;html5-1&quot;&gt;4.5 HTML5文本级元素&lt;/h2&gt;
+&lt;p&gt;##### 文本级别语义标签：
+1.  ==&amp;lt; b&amp;gt;元素==：&amp;lt; b&amp;gt;元素表示只为引入注意而标记的文本，不传达更多的重要信息，也不用于表达其他的愿望或情绪&lt;/p&gt;
+
+&lt;p&gt;（人们常用&amp;lt; b&amp;gt;元素来加粗文本，而现在，可以把它用作一个添加CSS样式的标记）&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;==&amp;lt; em&amp;gt;元素==：em元素表示内容中需要强调的部分&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;==&amp;lt; i&amp;gt;元素==：一段文本，用于表示另一种愿望或情绪，或者以突出不同文本形式的方式表 
+达偏离正文的意思&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;（它不仅仅用于把文本标为斜体。比如，可以用它在文本中标记出罕用的名字）&lt;/p&gt;
+
+&lt;h2 id=&quot;html5-2&quot;&gt;4.9 在HTML5中嵌入媒体&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;使用HTML5视频和音频&lt;/strong&gt;：只要一对&amp;lt; video&amp;gt;&amp;lt; /video&amp;gt;（或&amp;lt;  audio&amp;gt;&amp;lt; /audio&amp;gt;）标签就可以了。也可以在这对标签中间添加文本，以便出问题时让用户知道这里是什么&lt;/p&gt;
+
+&lt;h6 id=&quot;widthheight&quot;&gt;还有一些属性是需要添加的，比如width和height：&lt;/h6&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;video src=&quot;myVideo.mp4&quot; width=&quot;640&quot; height=&quot;480&quot;&amp;gt;What, do you mean
+you don&#39;t understand HTML5?&amp;lt;/video&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;其他属性还有：&lt;/p&gt;
+
+&lt;p&gt;preload用于控制媒体的预加载；loop用于重复播放；poster用于设置视频的首屏图像&lt;/p&gt;
+
+&lt;h2 id=&quot;html5-3&quot;&gt;4.10 响应式HTML5视频与内嵌框架&lt;/h2&gt;
+
+&lt;p&gt;HTML5视频的唯一问题是他不是响应式的
+但只要把宽度和高度属性删掉，并添加CSS：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;video { max-width: 100%; height: auto; }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;## 4.11 关于“离线优先”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“离线优先”（offline-first）&lt;/strong&gt;：就是要保证网站和应用始终可以打开，即使不上网也能加载到内容&lt;/p&gt;</content><summary>第四章	HTML5与响应式Web设计</summary></entry><entry><title>第三章笔记</title><link href="/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第三章笔记" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>/第三章笔记</id><content type="html" xml:base="/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
+&lt;p&gt;layout: default
+title:  “第三章笔记”
+categories: posts rwd
 —&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;第三章	弹性布局与响应式图片&lt;/h1&gt;
+
+&lt;h5 id=&quot;section-1&quot;&gt;弹性布局：百分比布局使得网页宽度能够随着查看它们的屏幕窗口大小变化&lt;/h5&gt;
+
+&lt;p&gt;（媒体查询虽然可以让我们根据市口大小分别切换不同的样式，但在设计这些“断点之间必须要平滑过渡才行。而使用弹性布局就可以轻松解决这个问题，实现媒体查询断点见得平滑过渡”）&lt;/p&gt;
+
+&lt;p&gt;CSS推出了一个新的布局模块叫 &lt;strong&gt;“弹性盒子”（Flexbox）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Flexbox可以用来居中内容，改变标记中的的原码顺序，创建令人惊艳的网页布局&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;响应式设计还有一个重要组成部分：&lt;strong&gt;响应式图片&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;（现在，已经有了专门的方法为特定设备视口发送特定的图片）&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;3.1 将固定像素大小转换为弹性比例大小&lt;/h2&gt;
+
+&lt;p&gt;开发者如果要在弹性布局中使用者和谐图，有时候要讲固定像素大小转换为比例大小：&lt;/p&gt;
+
+&lt;p&gt;==&lt;strong&gt;结果 = 目标 / 上下文&lt;/strong&gt;==
+（用元素所在的容器大小除元素的大小）&lt;/p&gt;
+
+&lt;p&gt;这里综合运用了两个响应式Web设计的核心技术：
+将固定大小转换为比例大小，以及使用媒体查询相对于视口大小应用CSS规则&lt;/p&gt;
+
+&lt;h2 id=&quot;flexbox&quot;&gt;3.1.1. 为什么要Flexbox&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;行内块与空白（她会在HTML元素间渲染空白）&lt;/li&gt;
+  &lt;li&gt;浮动（但浮动布局跨平台的一致性很好）&lt;/li&gt;
+  &lt;li&gt;表格与表元&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;flexbox-1&quot;&gt;3.2 Flexbox概述&lt;/h2&gt;
+
+&lt;p&gt;Flexbox可以解决显示机制的问题，他的功能如下：
+1. 方便地垂直居中内容
+2. 改变元素的视觉次序
+3. 在盒子里自动插入空白以及对其元素，自动对齐元素间的空白&lt;/p&gt;
+
+&lt;h6 id=&quot;flexbox-2&quot;&gt;要设置Flexbox相关的三个属性和值：&lt;/h6&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; .flex{
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;autoprefixerhttpsgithubcompostcssautoprefixer&quot;&gt;前缀：自动加前缀 Autoprefixer（https://github.com/postcss/autoprefixer）。&lt;/h6&gt;
+
+&lt;h2 id=&quot;flexbox-3&quot;&gt;3.3 使用Flexbox&lt;/h2&gt;
+
+&lt;p&gt;Flexbox有四个关键特性：&lt;strong&gt;方向，对齐，次序和弹性&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;3.3.1 完美垂直居中文本&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.CenterMe {					
+	/*其他属性*/
+	Display: flex;
+	Align-items: center;
+	Justify-content: center	
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;3.3.2 偏移&lt;/h2&gt;
+&lt;p&gt;在包含元素上设置 &lt;strong&gt;display: flexbox;&lt;/strong&gt; 后，其子元素就会变成弹性项（flex-item），从而在弹性
+布局模型下布局。这里的“魔法”属性是 margin-left: auto ，它让最后一项用上该侧所有可
+用的外边距。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;3.3.3 反序&lt;/h2&gt;
+
+&lt;p&gt;给包含元素的CSS加一行 flex-direction: row-reverse ，
+把最后一项的 margin-left: auto 改成 margin-right: auto&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.MenuWrap {
+background-color: indigo;
+font-family: &#39;Oswald&#39;, sans-serif;
+font-size: 1rem;
+min-height: 2.75rem;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+padding: 0 1rem;
+}
+.LastItem {
+color: #ebebeb;
+text-decoration: none;
+}
+.ListItem {
+margin-right: 1rem;
+}
+.LastItem {
+margin-right: auto;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;（1）垂直排列&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在包含元素中使用flex-direction：colum；再把自动外边距属性删掉&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（2）垂直反序&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;只要改成flex-direction：column-reverse；就行了&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;【有一个 flex-flow 属性，是 flex-direction 和 flex-wrap 的合体。flex-flow: row wrap; 就是把方向（ flex-direction ）设置为行（ row ），把折行选项设置为折行（ wrap ）。】&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;3.3.5 行内伸缩&lt;/h2&gt;
+&lt;p&gt;Flexbox与有与 inline-block 和 inline-table 对应的 inline-flex 变体。&lt;/p&gt;
+
+&lt;p&gt;通过行内伸缩模型可以轻松实现一些搞怪的效果&lt;/p&gt;
+
+&lt;p&gt;如果将某元素无端地设置为 display: inline-flex，就会保留元素间的空白&lt;/p&gt;
+
+&lt;h2 id=&quot;flexbox-4&quot;&gt;3.3.6 Flexbox的对齐&lt;/h2&gt;
+&lt;p&gt;关于Flexbox的对齐，最重要的是理解坐标轴。
+有两个轴，==“主轴” 和 “交叉轴”==           这两个轴代表取决于Flexbox排列的方向&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;（如果将Flexbox的方向设置为 row ，则主轴就是横轴，而交叉轴就是纵轴。
+如果Flexbox的方向是 column ，则主轴就是纵轴，而交叉轴为横轴。）&lt;/em&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;section-7&quot;&gt;对齐的相关属性：&lt;/h5&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;align-items&lt;/strong&gt;： align-items在交叉轴上定位元素
+&lt;em&gt;如：align-items：center 内部元素垂直居中（同样的效果会应用给其中的所有子元素）&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;align-self&lt;/strong&gt;：把某一个元素按不同方式对齐 
+&lt;em&gt;需要删除前面针对所有子元素的对齐属性，并在标记中再添加两个具有相同HTML类名的元素。另外，在中间的子元素上再添加.AlignSelf 类，通过它来应用align-self属性&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;交叉轴的对齐&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;section-8&quot;&gt;交叉轴的值：&lt;/h6&gt;
 &lt;ul&gt;
-  &lt;li&gt;每个博文都要这几行内容，要不然不显示&lt;/li&gt;
-  &lt;li&gt;【必填的】第一个意思是网页布局为_layout文件夹default.html文件，default.html文件是准备好的网页格式，你在这 里写layout: default，你写的markdown就会引向这个布局格式&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;老师在GitHub上在自己的网页的修改历史有把自己博文从default修改为article，意思也就是布局从default.html文件变为同一个位置另一个准备好的网页格式的article.html文件&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;【必填的】接着的title就是标题，就是这篇博文在网页显示的标题，&lt;/li&gt;
-  &lt;li&gt;【必填的】第三个就是categories：这里&lt;strong&gt;用英文&lt;/strong&gt;填写几个关键词，记得用空格分开，这里就是按从左到右的顺序填写的词就会变成打开网页看自己的博文时候的网页地址出现&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;例如：&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;老师的其中一篇博客文章 先自裝Rubyhttps://hanteng.github.io/notes_tech/jekyll/Ruby/&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;看这个文件的时候，你会看到老师的 博客文件https://github.com/hanteng/hanteng.github.io/blob/master/_posts/2017-11-30-Ruby.md&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;在categories 后面填写notes_tech和 Jekyll,注意先自裝Rubyhttps://hanteng.github.io/notes_tech/jekyll/Ruby/&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;网址最后面出现了/notes_tech/jekyll//Ruby，其中最后的ruby是老师的博客文件名，而前两个notes_tech和 Jekyll就是老师在博客里写的&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;所以对应的博文categories按照下面的填&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;flex-start&lt;/strong&gt; ：把元素的对齐设置为flex-start，可以让元素从flexbox父元素的起始边开始&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;flex-end&lt;/strong&gt;：把元素的对齐设置为flex-end，会沿flexbox的父元素的末尾对齐该元素&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;center&lt;/strong&gt;：把元素放在flexbox元素的中间&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;baseline&lt;/strong&gt;：让flexbox元素中的所有项沿基线对齐&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;stretch&lt;/strong&gt;：让flexbox中的所有项（没交叉轴）拉伸至与父元素一样大&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;分类&lt;/th&gt;
-      &lt;th&gt;对应的内容&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;信息可视化笔记 分类(categories)&lt;/td&gt;
-      &lt;td&gt;posts  infovis&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Web  分类(categories)&lt;/td&gt;
-      &lt;td&gt;posts rwd&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;记得空格，例如：&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;可视化的笔记要这样子要修改为：&lt;/p&gt;
-
-    &lt;p&gt;categories: posts  infovis&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Justify-content&lt;/strong&gt;： 控制沿flexbox主轴对齐的属性是justify-content&lt;br /&gt;
+&lt;em&gt;（可以告诉浏览器怎么处理其余空间）&lt;/em&gt;
+###### 属性的可能值包括：
+    &lt;ul&gt;
+      &lt;li&gt;flex-start&lt;/li&gt;
+      &lt;li&gt;flex-end&lt;/li&gt;
+      &lt;li&gt;center&lt;/li&gt;
+      &lt;li&gt;space-between ：在子元素之间添加相同宽度的空白&lt;/li&gt;
+      &lt;li&gt;space-around ： 在他们两边各添加相同宽度的空白&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;三。作品放在&lt;/h2&gt;
+&lt;h2 id=&quot;flex&quot;&gt;3.3.7  flex&lt;/h2&gt;
+&lt;p&gt;伸缩项（flex-item）定义宽度 / 伸缩性（flexiness）：通过flex属性来定义宽度&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.FlexInner {
+    border: 1px solid #ebebeb;
+    background-color: #34005B;
+    display: flex;
+    height: 100px;
+    flex: 1;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这里的flex实际上是三个属性合体的简写：&lt;strong&gt;flex-grow、flex-shrink和flex-basis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;对于伸缩项，如果flex属性存在，则使用他的值控制元素的大小，忽略宽度和高度值的设置，即使他们的声明位于flex声明之后，也会被忽略&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;这个模板的目录已经改好为两个个人作品集&lt;/li&gt;
-  &lt;li&gt;想了解的话，参考文章https://ccwwen.github.io/rwd/%E5%A6%82%E4%BD%95%E5%A2%9E%E5%8A%A0%E5%AF%BC%E8%88%AA%E6%A0%8F%E8%BF%9B%E4%B8%80%E6%AD%A5%E7%9A%84%E9%A1%B5%E9%9D%A2/&lt;/li&gt;
-  &lt;li&gt;具体的栏的信息是在_data文件的navigation.yml&lt;/li&gt;
-  &lt;li&gt;infovis 文件夹放信息可视化作品集，放在index.html&lt;/li&gt;
-  &lt;li&gt;portfolio 文件夹放网页设计作品集，放在index.html&lt;/li&gt;
+  &lt;li&gt;==flex-grow==（传给flex的第一个值）是相对与其他伸缩项，当前伸缩项在空间允许的情况下可以伸展的量。&lt;/li&gt;
+  &lt;li&gt;==flex-shrink==是在空间不够的情况下，当前伸缩项相对于其他伸缩项可以收缩的量&lt;/li&gt;
+  &lt;li&gt;==flex-basis==（传给flex的最后一个值）是伸缩项伸缩的基准值&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;（例：flex：0 0 50px = 这个伸缩项即不伸也不缩，基准为50像素
+Flex：2 0 50% = 会多占用两个可用空间不收缩，基准为50%）&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;httpsgithubcomhantenghantenggithubiocommitsmaster&quot;&gt;具体老师的要求看他的提交内容https://github.com/hanteng/hanteng.github.io/commits/master，再对应文件上做修改&lt;/h1&gt;</content><summary>首先做这个，最重要的一步，用notepad++打开_config.yml文件</summary></entry></feed>
+&lt;p&gt;将flex-shrink的值设置为0，flex-basis实际上就相当于最小宽度&lt;/p&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;3.3.8 简单的粘附页脚&lt;/h2&gt;
+
+&lt;p&gt;假设页面内容不够长时，仍然想让页脚停留在视口底部&lt;/p&gt;
+
+&lt;p&gt;尝试给.MainContentdiv 添加更多内容。在内容不够多时，页脚一直驻留底部；而在内容够多时，页脚会位于内容下方&lt;/p&gt;
+
+&lt;p&gt;原理是flex属性会让内容在空间允许的情况下伸展。因为页面内容是伸缩容器，最小高度是100%，所以主内容区会尽可能占据所有有效空间&lt;/p&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;3.3.9 改变原始次序&lt;/h2&gt;
+
+&lt;p&gt;改变网页中HTML元素的视觉次序：把元素包在一个设置为 display: table 的容器内，然后切换内部元素的 display 属性。&lt;/p&gt;
+
+&lt;p&gt;想放到前头的，就切换成 display: table-caption ；&lt;/p&gt;
+
+&lt;p&gt;想放在底部的，就切换成 display: table-footer-group ；&lt;/p&gt;
+
+&lt;p&gt;或者想放在第二位的（位于 display: table-caption 之后），就切换成 display:table-header-group 。&lt;/p&gt;
+
+&lt;h6 id=&quot;flexboxhtmlflexcontent&quot;&gt;Flexbox内置了重新排序的能力：有一个HTML类叫FlexContent&lt;/h6&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.FlexContent {
+    background-color: #FFFAD5;
+    order: -1;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Order属性可以在Flexbox中简单、明确地修改元素的次序&lt;/p&gt;
+
+&lt;p&gt;（此处-1表示要位于其他所有元素之前）&lt;/p&gt;
+
+&lt;p&gt;flex-flow: row wrap 这个属性可以让伸缩项折行。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;3.4 响应式图片&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;通过srcset切换分辨率&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;img src=&quot;scones_small.jpg&quot; srcset=&quot;scones_medium.jpg 1.5x, scones_large.jpg 2x&quot; alt=&quot;Scones taste amazing&quot;&amp;gt;	
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Srcset 及sizes 联合切换&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;img srcset=&quot;scones-small.jpg 450w, scones-medium.jpg 900w&quot;sizes=&quot;(min-width: 17em) 100vw, (min-width: 40em) 50vw&quot; src=&quot;sconessmall.jpg&quot; alt=&quot;Scones&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Picture 元素&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;picture&amp;gt;
+&amp;lt;source media=&quot;(min-width: 30em)&quot; srcset=&quot;cake-table.jpg&quot;&amp;gt;
+&amp;lt;source media=&quot;(min-width: 60em)&quot; srcset=&quot;cake-shop.jpg&quot;&amp;gt;
+&amp;lt;img src=&quot;scones.jpg&quot; alt=&quot;One way or another, you WILL get
+cake.&quot;&amp;gt;
+&amp;lt;/picture&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;要知道 picture 元素只是一个容器，为我们给其中的 img 元素指定图片提供便利。假如你想为图片添加样式，那目标应该是它内部的那个 img。img 标签是浏览器不支持picture 元素，或者支持 picture 但没有合适媒体定义时的后备&lt;/p&gt;
+
+&lt;p&gt;Source标签：可以使用媒体查询表达式明确告诉浏览器什么条件下使用什么图片&lt;/p&gt;
+
+&lt;p&gt;Picture还支持提供可替换的图片格式&lt;/p&gt;</content><summary>layout: default
+title:  “第三章笔记”
+categories: posts rwd
+—</summary></entry><entry><title>第二章笔记</title><link href="/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第二章笔记" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>/第二章笔记</id><content type="html" xml:base="/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
+&lt;p&gt;layout: default
+title:  “第二章笔记”
+categories: posts rwd
+—&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;第二章	媒体查询&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;2.1 为什么&lt;/h2&gt;
+
+&lt;p&gt;CSS3媒体查询可以让我们针对特定的设备能力或条件为网页应用特定的CSS样式
+&amp;gt; “媒体查询包含媒体类型和零个或多个检测媒体特性的表达式。 width 、 height 和
+color 都是可用于媒体查询的特性。使用媒体查询，可以不必修改内容本身，而让网页
+适配不同的设备。”&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;2.2 媒体查询的语法&lt;/h2&gt;
+
+&lt;h5 id=&quot;link&quot;&gt;在link标签中使用媒体查询&lt;/h5&gt;
+
+&lt;p&gt;可以再&lt;link /&gt;标签的media属性中指定设备类型（screen或print）,为不同设备应用样式表&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=”style sheet” type=”text/css” media=”screen” href=”screensyles.css”&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;媒体查询不仅可以制定设备类型，还能制定设备的能力和特性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=”stylesheet” media=”screen and (orientation: portrait)” href=”portrait-screen.css”/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;样式表portrait-screen.css会应用给任何有屏幕且屏幕方向垂直的设备&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;stylesheet&quot; media=&quot;not screen and (orientation: portrait)&quot; href=&quot;portrait-screen.css&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;如果在媒体查询表达式的开头添加一个not，就可以把询问的条件反过来&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;2.3 组合媒体查询&lt;/h2&gt;
+&lt;p&gt;可以将多个媒体查询组合在一起&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;stylesheet&quot; media=&quot;screen and (orientation: portrait) and (min-width: 800px)&quot; href=&quot;800wide-portrait-screen.css&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;2.3.2 在CSS中使用媒体查询&lt;/h2&gt;
+
+&lt;h6 id=&quot;css-1&quot;&gt;更常见的是在CSS文件内部直接使用媒体查询&lt;/h6&gt;
+&lt;p&gt;首先使用@media规则生命这是一个媒体查询，然后制定匹配的设备类型
+（多数情况下，并不需要制定screen / 除非你真的想针对特定的媒体类型应用样式，否则就不要写screen and 了）&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;2.3.3.媒体查询可以测试哪些特性&lt;/h2&gt;
+&lt;p&gt;媒体查询中用得最多的特性是视口宽度（ width）。很少需要用到其他设备特性（偶尔会用到分辨率和视口高度）&lt;/p&gt;
+
+&lt;h5 id=&quot;section-5&quot;&gt;媒体查询3级规定的所有可用特性：&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;width ：视口宽度&lt;/li&gt;
+  &lt;li&gt;height ：视口高度&lt;/li&gt;
+  &lt;li&gt;device-height : 渲染表面的高度（可以认为是设备屏幕的高度）&lt;/li&gt;
+  &lt;li&gt;orientation：设备方向是水平还是垂直&lt;/li&gt;
+  &lt;li&gt;aspect-ratio：视口的宽高比。16:9的宽屏显示器可以写成aspect-ratio：16/9&lt;/li&gt;
+  &lt;li&gt;color：颜色组分的位深。比如min-color：表示设备至少支持16位深&lt;/li&gt;
+  &lt;li&gt;color-index：设备颜色查找表中的条目数，值必须是数值，且不能为负&lt;/li&gt;
+  &lt;li&gt;monochrome：单色帧缓冲中表示每个像素的位数，值必须是数值（整数），比如monochrome: 2 ，且不能为负。&lt;/li&gt;
+  &lt;li&gt;resolution：屏幕或打印分辨率，比如 min-resolution: 300dpi 。也可以接受每厘米多少点，比如 min-resolution: 118dpcm 。&lt;/li&gt;
+  &lt;li&gt;scan ：针对电视的逐行扫描（progressive）和隔行扫描（interlace）。例如720p HD TV（720p
+中的p表示progressive，即逐行）可以使用 scan: progressive 来判断； 而1080i HD TV（1080i中的i表示interlace，即隔行）可以使用 scan: interlace 来判断。&lt;/li&gt;
+  &lt;li&gt;grid ：设备基于栅格还是位图。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;scan--grid--min--max-&quot;&gt;(上面列表中的特性，除 scan 和 grid 外，都可以加上 min 或 max 前缀以指定范围)&lt;/h6&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;2.4 通过媒体查询修改设计&lt;/h2&gt;
+
+&lt;p&gt;位于下方的CSS样式会覆盖谓语上方的目标相同的CSS样式，除非上方的选择符优先级更高或者更具体。
+因此，可以在一开始设置一套基准样式，将其应用给不同版本的设计方案
+（这样可以确保用户的基准体验）&lt;/p&gt;
+
+&lt;p&gt;使用媒体查询可以从整体上修改一个网站的布局和外观&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;2.5 组织和编写媒体查询的注意事项&lt;/h2&gt;
+
+&lt;p&gt;使用媒体查询链接不同的CSS文件
+&amp;gt; “请注意，「阻塞渲染」仅是指该资源是否会暂停浏览器
+的首次页面渲染。无论CSS是否阻塞渲染，CSS资源都
+会被下载，只是说非阻塞性资源的优先级比较低而已。“&lt;/p&gt;
+
+&lt;p&gt;如果浏览器要加载的响应式页面通过不同的媒体查询连接了4个不同的样式表，那他就会下载4个CSS文件，但在渲染页面之前，他只会解析那个针对当前视口大小的样式表&lt;/p&gt;
+
+&lt;p&gt;但 HTTP请求多了会明显影响页面加载速度
+###### 应首先确认：
+1. 所有图片都压缩过了
+2. 所有脚本都拼接和缩短了
+3. 所有资源都采用了gzip压缩
+4. 所有静态内容都缓存到了CDN
+5. 所有多于的CSS规则都被清除了&lt;/p&gt;
+
+&lt;h2 id=&quot;meta&quot;&gt;2.7 关于视口的meta标签&lt;/h2&gt;
+
+&lt;p&gt;为了利用媒体查询，应该让小屏幕以其原生大小来显示网页，而不是现在980像素宽的窗口中渲染好，让用户去放大或缩小&lt;/p&gt;
+
+&lt;p&gt;这个用于视口的meta标签，是网页与移动浏览器的接口
+这个视口&lt;meta /&gt;标签应该放在HTML的&amp;lt;head&amp;gt;标签中。可以在其中设置具体的宽度（比如使用像素单位），或者设置一个比例（比如2.0，即世纪大小的两倍）&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta name=“viewport” content=“initial-scale=2.0, width=devic-width”/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;user-scalable=no 是禁止用户缩放的
+我们把 initial-scale 又改回了1.0，意思是让移动浏览器在其视口的宽度中渲染网
+页。将 width 设置为 device-width 就是要在所有支持的移动浏览器中，以百分之百的视口宽度来渲染页面&lt;/p&gt;</content><summary>layout: default
+title:  “第二章笔记”
+categories: posts rwd
+—</summary></entry><entry><title>第一章笔记</title><link href="/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第一章笔记" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>/第一章笔记</id><content type="html" xml:base="/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
+&lt;p&gt;layout: default
+title:  “第一章笔记”
+categories: posts rwd
+—&lt;/p&gt;
+
+&lt;h1 id=&quot;web&quot;&gt;第一章	响应式Web设计&lt;/h1&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;1.1定义需求&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;graph TD
+    C[响应式Web设计]
+    C --&amp;gt;  D[弹性网格布局]
+    C --&amp;gt; E[弹性图片/媒体]
+    C --&amp;gt; F[媒体查询]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;（网页内容会随着访问他的视口及设备的不同而呈现不同的样式）&lt;/p&gt;
+
+&lt;h2 id=&quot;html&quot;&gt;1.4.1 HTML&lt;/h2&gt;
+&lt;p&gt;##### 视口：浏览器中用于呈现网页的区域
+（通常并不等于屏幕大小）
+##### &lt;meta /&gt;标签：告诉浏览器怎么渲染网页&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta name=”viewport” content=”width=device-width”&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;按照设备的宽度（device-width）来渲染内容&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;1.4.2 图片&lt;/h2&gt;
+
+&lt;p&gt;在这里我们创建一个CSS文件：css/styles.css，将它链接到HTML页面的头部。
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+img {
+    max-width: 100%;
+}
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;1.4.3 媒体查询&lt;/h2&gt;
+&lt;p&gt;媒体查询可以让我们在某些条件下（如宽度和高度为多少的情况下）为网页应用样式&lt;/p&gt;
+
+&lt;h5 id=&quot;section-3&quot;&gt;断点：某个宽度临界点，跨过这个点布局就会发生显著变化&lt;/h5&gt;
+
+&lt;p&gt;（不针对流行的设备宽度设置断点）&lt;/p&gt;
+
+&lt;p&gt;最小宽度媒体查询：在这个媒体查询中设置CSS规则，只在视口符合最小定义宽度条件时会应用到网页&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@media screen and (min-width:50em) {  
+    /*样式*/
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><summary>layout: default
+title:  “第一章笔记”
+categories: posts rwd
+—</summary></entry></feed>
