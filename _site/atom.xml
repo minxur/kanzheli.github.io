@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-02T19:30:57+08:00</updated><id>/</id><title>网页设计&amp;可视化学习笔记</title><entry><title>第五章笔记</title><link href="/posts/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>/posts/rwd/第六章笔记</id><content type="html" xml:base="/posts/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-02T20:11:09+08:00</updated><id>/</id><title>MINXUR&#39;BOLG</title><entry><title>第五章笔记</title><link href="/posts/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>/posts/rwd/第六章笔记</id><content type="html" xml:base="/posts/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
   &lt;h1 id=&quot;css3&quot;&gt;第六章	CSS3高级技术&lt;/h1&gt;
 
   &lt;h2 id=&quot;css3-1&quot;&gt;6.1 CSS3的文字阴影特效&lt;/h2&gt;
@@ -1070,51 +1070,61 @@ image:
 
   &lt;h1 id=&quot;web&quot;&gt;第一章	响应式Web设计&lt;/h1&gt;
 
-  &lt;h2 id=&quot;section&quot;&gt;1.1定义需求&lt;/h2&gt;
+  &lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;&lt;!-- left --&gt;
 
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;graph TD
+## 1.1定义需求
+
+```
+graph TD
     C[响应式Web设计]
     C --&amp;gt;  D[弹性网格布局]
     C --&amp;gt; E[弹性图片/媒体]
     C --&amp;gt; F[媒体查询]
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-  &lt;p&gt;（网页内容会随着访问他的视口及设备的不同而呈现不同的样式）&lt;/p&gt;
+```
+（网页内容会随着访问他的视口及设备的不同而呈现不同的样式）
 
-  &lt;h2 id=&quot;html&quot;&gt;1.4.1 HTML&lt;/h2&gt;
-  &lt;p&gt;##### 视口：浏览器中用于呈现网页的区域
+&lt;/div&gt;
+&lt;div class=&quot;col-md-9&quot;&gt;&lt;!-- right --&gt;
+
+## 1.4.1 HTML
+##### 视口：浏览器中用于呈现网页的区域
 （通常并不等于屏幕大小）
-##### &lt;meta /&gt;标签：告诉浏览器怎么渲染网页&lt;/p&gt;
+##### &lt;meta /&gt;标签：告诉浏览器怎么渲染网页
 
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta name=”viewport” content=”width=device-width”&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
+```
+&amp;lt;meta name=”viewport” content=”width=device-width”&amp;gt;
+```
 
-  &lt;p&gt;按照设备的宽度（device-width）来渲染内容&lt;/p&gt;
 
-  &lt;h2 id=&quot;section-1&quot;&gt;1.4.2 图片&lt;/h2&gt;
+按照设备的宽度（device-width）来渲染内容
 
-  &lt;p&gt;在这里我们创建一个CSS文件：css/styles.css，将它链接到HTML页面的头部。
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
+## 1.4.2 图片
+
+在这里我们创建一个CSS文件：css/styles.css，将它链接到HTML页面的头部。
+```
 img {
     max-width: 100%;
 }
-&lt;/code&gt;&lt;/p&gt;
+```
 
-  &lt;h2 id=&quot;section-2&quot;&gt;1.4.3 媒体查询&lt;/h2&gt;
-  &lt;p&gt;媒体查询可以让我们在某些条件下（如宽度和高度为多少的情况下）为网页应用样式&lt;/p&gt;
+## 1.4.3 媒体查询
+媒体查询可以让我们在某些条件下（如宽度和高度为多少的情况下）为网页应用样式
 
-  &lt;h5 id=&quot;section-3&quot;&gt;断点：某个宽度临界点，跨过这个点布局就会发生显著变化&lt;/h5&gt;
+##### 断点：某个宽度临界点，跨过这个点布局就会发生显著变化
 
-  &lt;p&gt;（不针对流行的设备宽度设置断点）&lt;/p&gt;
+（不针对流行的设备宽度设置断点）
 
-  &lt;p&gt;最小宽度媒体查询：在这个媒体查询中设置CSS规则，只在视口符合最小定义宽度条件时会应用到网页&lt;/p&gt;
+最小宽度媒体查询：在这个媒体查询中设置CSS规则，只在视口符合最小定义宽度条件时会应用到网页
 
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@media screen and (min-width:50em) {  
+
+```
+@media screen and (min-width:50em) {  
     /*样式*/
 }
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
+```
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</content><summary>layout: default
 title:  “第一章笔记”
 categories: posts rwd

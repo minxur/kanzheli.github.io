@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: 网页设计&可视化学习笔记
+title: MINXUR'BOLG
 description: 
 logo: # 个人的logo120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+teaser: base_teaser.jpg
 locale: zh_CN # 本地化翻譯
 url:
 feed:
@@ -32,7 +32,7 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio: 中大南方网络与新媒体学生
+  bio: 中大南方16级网络与新媒体学生
   avatar: #这是个人照片，例如bio-photo.jpg  160x160 px image for author byline
   disqus-shortname:
 
