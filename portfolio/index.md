@@ -7,7 +7,7 @@ excerpt:"我的网页设计作品&笔记"
 tags: []
 image: 
 	feature: base.jpg
-	teaser:
+	teaser:base.jpg
 ---
 <div class="tiles">
 
