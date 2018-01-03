@@ -1,17 +1,19 @@
+
 ---
-layout: archive	 
+layout: archive
 title: "网页设计"
-date: 20181-03T11:40:45-04:00
+date: 2018-1-1T14:25:45-04:00
 modified:
-excerpt:"我的网页设计作品&笔记"
+excerpt: "我的网页设计作品"
 tags: []
 image: 
-	feature: base.jpg
-	teaser:base.jpg
+  feature: base.jpg
+  teaser:
 ---
-<div class="tiles">
 
+
+<div class="tiles">
 {% for post in site.categories.portfolio %}
-	{% include post-grid.html %}
+  {% include post-grid.html %}
 {% endfor %}
-</div>
+</div><!-- /.tiles 把所有categories 有 portfolio 的列出来-->
