@@ -31,7 +31,9 @@ pre.highlight {
 		padding: 1em;
 	}
 	&:hover {
-		border: 1px solid $form-border-color-hover;
+		border: 5px solid $form-border-color-hover;
+		background-color: #7F7A79;
+		color: #FFF4F2;
 	}
 }
 

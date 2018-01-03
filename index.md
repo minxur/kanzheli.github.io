@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "最近的学习笔记"
+title: "最新文章"
 ---
 
 <div class="tiles">

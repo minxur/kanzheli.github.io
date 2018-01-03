@@ -9,8 +9,10 @@
 body {
 	font-family: $base-font;
 	color: $text-color;
+	background-image:
+     linear-gradient(rgba(255, 214, 120, 0.9), rgba(255, 214, 120, 0.7)), 
+ +      url('../images/bg.jpg');
 	@include font-size(16);
-	background-color: rgba(240,230,140,0.8);
 }
 
 p {
