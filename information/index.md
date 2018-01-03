@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 title:  "我的信息"
 categories: information
 date: 2018-1-1T14:25:45-04:00
