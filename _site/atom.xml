@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-03T16:16:23+08:00</updated><id>/</id><title>MINXUR&#39;BOLG</title><entry><title>第六章笔记</title><link href="/posts/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第六章笔记" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>/posts/第六章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-03T20:53:56+08:00</updated><id>/</id><title>MINXUR&#39;BOLG</title><entry><title>第一次网页作业</title><link href="/portfolio/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/" rel="alternate" type="text/html" title="第一次网页作业" /><published>2018-01-02T00:00:00+08:00</published><updated>2018-01-02T00:00:00+08:00</updated><id>/portfolio/第一次网页作业</id><content type="html" xml:base="/portfolio/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/">&lt;div class=&quot;col-md-9&quot;&gt;
+
+  &lt;h1 id=&quot;section&quot;&gt;第一次的网页作业&lt;/h1&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&amp;lt;a href=”https://minxur.github.io/portfolio/c1homework/index.html” target=”_blank” 点击查看作品&amp;lt;/a&amp;gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/div&gt;</content><summary>用书上chapter1的代码修改一个网页</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;c1.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>文传logo的动画作业</title><link href="/portfolio/%E6%96%87%E4%BC%A0logo%E7%9A%84%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/" rel="alternate" type="text/html" title="文传logo的动画作业" /><published>2018-01-02T00:00:00+08:00</published><updated>2018-01-02T00:00:00+08:00</updated><id>/portfolio/文传logo的动画效果</id><content type="html" xml:base="/portfolio/%E6%96%87%E4%BC%A0logo%E7%9A%84%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/">&lt;div class=&quot;col-md-9&quot;&gt;
+
+  &lt;h1 id=&quot;logo&quot;&gt;文传logo的动画作业&lt;/h1&gt;
+
+  &lt;h4 id=&quot;svg&quot;&gt;用svg做动画的相关练习&lt;/h4&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&amp;lt;a href=”https://minxur.github.io/portfolio/wcy_logo/index.html” target=”_blank” 点击查看作品&amp;lt;/a&amp;gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/div&gt;</content><summary>用svg做动画的相关练习</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;wcy_logo.svg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第六章笔记</title><link href="/posts/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第六章笔记" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>/posts/第六章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
   &lt;h1 id=&quot;css3&quot;&gt;第六章	CSS3高级技术&lt;/h1&gt;
 
   &lt;h2 id=&quot;css3-1&quot;&gt;6.1 CSS3的文字阴影特效&lt;/h2&gt;
@@ -244,13 +262,7 @@ filter: drop-shadow(8px 8px 6px #333);
   &lt;ul&gt;
     &lt;li&gt;可以使用多个滤镜，用空格分隔它们即可。&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/div&gt;</content><summary>第六章	CSS3高级技术</summary></entry><entry><title>第五章笔记</title><link href="/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2017-12-31T00:00:00+08:00</published><updated>2017-12-31T00:00:00+08:00</updated><id>/第五章笔记</id><content type="html" xml:base="/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
-&lt;p&gt;layout: default
-title:  “第五章笔记”
-categories: posts
-—&lt;/p&gt;
-
-&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第六章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;css3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第五章笔记</title><link href="/posts/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2017-12-31T00:00:00+08:00</published><updated>2017-12-31T00:00:00+08:00</updated><id>/posts/第五章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;css&quot;&gt;第五章	CSS新特性&lt;/h1&gt;
 
@@ -501,16 +513,7 @@ color: hsla(359, 99%, 50%, .5);
 &lt;/code&gt;&lt;/pre&gt;
   &lt;/div&gt;
 
-&lt;/div&gt;</content><summary>layout: default
-title:  “第五章笔记”
-categories: posts
-—</summary></entry><entry><title>第四章笔记</title><link href="/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第四章笔记" /><published>2017-12-30T00:00:00+08:00</published><updated>2017-12-30T00:00:00+08:00</updated><id>/第四章笔记</id><content type="html" xml:base="/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
-&lt;p&gt;layout: default
-title:  “第四章笔记”
-categories: posts
-—&lt;/p&gt;
-
-&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第五章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;css3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第四章笔记</title><link href="/posts/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第四章笔记" /><published>2017-12-30T00:00:00+08:00</published><updated>2017-12-30T00:00:00+08:00</updated><id>/posts/第四章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;html5web&quot;&gt;第四章	HTML5与响应式Web设计&lt;/h1&gt;
 
@@ -638,16 +641,7 @@ you don&#39;t understand HTML5?&amp;lt;/video&amp;gt;
 
   &lt;p&gt;&lt;strong&gt;“离线优先”（offline-first）&lt;/strong&gt;：就是要保证网站和应用始终可以打开，即使不上网也能加载到内容&lt;/p&gt;
 
-&lt;/div&gt;</content><summary>layout: default
-title:  “第四章笔记”
-categories: posts
-—</summary></entry><entry><title>第三章笔记</title><link href="/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第三章笔记" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>/第三章笔记</id><content type="html" xml:base="/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
-&lt;p&gt;layout: default
-title:  “第三章笔记”
-categories: posts
-—&lt;/p&gt;
-
-&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第四章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;html.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第三章笔记</title><link href="/posts/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第三章笔记" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>/posts/第三章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;section&quot;&gt;第三章	弹性布局与响应式图片&lt;/h1&gt;
 
@@ -906,16 +900,7 @@ cake.&quot;&amp;gt;
 
   &lt;p&gt;Picture还支持提供可替换的图片格式&lt;/p&gt;
 
-&lt;/div&gt;</content><summary>layout: default
-title:  “第三章笔记”
-categories: posts
-—</summary></entry><entry><title>第二章笔记</title><link href="/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第二章笔记" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>/第二章笔记</id><content type="html" xml:base="/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
-&lt;p&gt;layout: default
-title:  “第二章笔记”
-categories: posts
-—&lt;/p&gt;
-
-&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第三章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;c3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第二章笔记</title><link href="/posts/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第二章笔记" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>/posts/第二章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;section&quot;&gt;第二章	媒体查询&lt;/h1&gt;
 
@@ -1030,68 +1015,53 @@ color 都是可用于媒体查询的特性。使用媒体查询，可以不必�
 我们把 initial-scale 又改回了1.0，意思是让移动浏览器在其视口的宽度中渲染网
 页。将 width 设置为 device-width 就是要在所有支持的移动浏览器中，以百分之百的视口宽度来渲染页面&lt;/p&gt;
 
-&lt;/div&gt;</content><summary>layout: default
-title:  “第二章笔记”
-categories: posts
-—</summary></entry><entry><title>第一章笔记</title><link href="/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第一章笔记" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>/第一章笔记</id><content type="html" xml:base="/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;hr /&gt;
-&lt;p&gt;layout: article
-title:  “第一章笔记”
-categories: posts portfolio
-image:
-	teaser: web.jpg
-	feature: web.jpg
-—&lt;/p&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第一章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;media.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第一章笔记</title><link href="/posts/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第一章笔记" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>/posts/第一章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
-&lt;h1 id=&quot;web&quot;&gt;第一章	响应式Web设计&lt;/h1&gt;
+  &lt;h1 id=&quot;web&quot;&gt;第一章	响应式Web设计&lt;/h1&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;1.1定义需求&lt;/h2&gt;
+  &lt;h2 id=&quot;section&quot;&gt;1.1定义需求&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;graph TD
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;graph TD
     C[响应式Web设计]
     C --&amp;gt;  D[弹性网格布局]
     C --&amp;gt; E[弹性图片/媒体]
     C --&amp;gt; F[媒体查询]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;（网页内容会随着访问他的视口及设备的不同而呈现不同的样式）&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;（网页内容会随着访问他的视口及设备的不同而呈现不同的样式）&lt;/p&gt;
 
-&lt;h2 id=&quot;html&quot;&gt;1.4.1 HTML&lt;/h2&gt;
-&lt;p&gt;##### 视口：浏览器中用于呈现网页的区域
+  &lt;h2 id=&quot;html&quot;&gt;1.4.1 HTML&lt;/h2&gt;
+  &lt;p&gt;##### 视口：浏览器中用于呈现网页的区域
 （通常并不等于屏幕大小）
 ##### &lt;meta /&gt;标签：告诉浏览器怎么渲染网页&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta name=”viewport” content=”width=device-width”&amp;gt;
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta name=”viewport” content=”width=device-width”&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+  &lt;/div&gt;
 
-&lt;p&gt;按照设备的宽度（device-width）来渲染内容&lt;/p&gt;
+  &lt;p&gt;按照设备的宽度（device-width）来渲染内容&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;1.4.2 图片&lt;/h2&gt;
+  &lt;h2 id=&quot;section-1&quot;&gt;1.4.2 图片&lt;/h2&gt;
 
-&lt;p&gt;在这里我们创建一个CSS文件：css/styles.css，将它链接到HTML页面的头部。
+  &lt;p&gt;在这里我们创建一个CSS文件：css/styles.css，将它链接到HTML页面的头部。
 &lt;code class=&quot;highlighter-rouge&quot;&gt;
 img {
     max-width: 100%;
 }
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;1.4.3 媒体查询&lt;/h2&gt;
-&lt;p&gt;媒体查询可以让我们在某些条件下（如宽度和高度为多少的情况下）为网页应用样式&lt;/p&gt;
+  &lt;h2 id=&quot;section-2&quot;&gt;1.4.3 媒体查询&lt;/h2&gt;
+  &lt;p&gt;媒体查询可以让我们在某些条件下（如宽度和高度为多少的情况下）为网页应用样式&lt;/p&gt;
 
-&lt;h5 id=&quot;section-3&quot;&gt;断点：某个宽度临界点，跨过这个点布局就会发生显著变化&lt;/h5&gt;
+  &lt;h5 id=&quot;section-3&quot;&gt;断点：某个宽度临界点，跨过这个点布局就会发生显著变化&lt;/h5&gt;
 
-&lt;p&gt;（不针对流行的设备宽度设置断点）&lt;/p&gt;
+  &lt;p&gt;（不针对流行的设备宽度设置断点）&lt;/p&gt;
 
-&lt;p&gt;最小宽度媒体查询：在这个媒体查询中设置CSS规则，只在视口符合最小定义宽度条件时会应用到网页&lt;/p&gt;
+  &lt;p&gt;最小宽度媒体查询：在这个媒体查询中设置CSS规则，只在视口符合最小定义宽度条件时会应用到网页&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@media screen and (min-width:50em) {  
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@media screen and (min-width:50em) {  
     /*样式*/
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><summary>layout: article
-title:  “第一章笔记”
-categories: posts portfolio
-image:
-	teaser: web.jpg
-	feature: web.jpg
-—</summary></entry></feed>
+  &lt;/div&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第一章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;web.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry></feed>
