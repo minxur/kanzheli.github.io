@@ -1,7 +1,14 @@
 ---
 layout: default
-title:  "information"
+title:  "我的信息"
 categories: information
+date: 2018-1-1T14:25:45-04:00
+modified:
+excerpt: "我的个人信息"
+tags: []
+image: 
+  feature:infor.jpg
+  teaser:infor.jpg
 ---
 
 <div class="row img-rounded" style="padding:30px; box-shadow: 10px 10px 5px #888888; border: 1px solid #EA1D2D;">

@@ -6,8 +6,8 @@ modified:
 excerpt: "我的网页设计作品"
 tags: []
 image: 
-  feature: base.jpg
-  teaser:
+  feature:base.jpg
+  teaser:base.jpg
 ---
 
 
