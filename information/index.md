@@ -1,9 +1,8 @@
-
 ---
 layout: default
 title:  "information"
 categories: information
----	  
+---
 
 <div class="row img-rounded" style="padding:30px; box-shadow: 10px 10px 5px #888888; border: 1px solid #EA1D2D;">
 <div class="row">		 
@@ -19,13 +18,14 @@ categories: information
 <div class="col-md-3">
 
 #### 姓名：卫泯序
+
 <img src="https://minxur.github.io/images/infor.jpg" alt="just a picture" style="width: 50%" type="image/jpg">
 </div>
 <div class="col-md-9" markdown="1">
-</br>
-github:minxur</br>
-QQ:505832623</br>
-number:161013083</br>
+
+- github:minxur
+- QQ:505832623
+- number:161013083
 
 </div>
 </div>
