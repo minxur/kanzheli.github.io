@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/posts/rwd/%25E7%25AC%25AC%25E5%2585%25AD%25E7%25AB%25A0%25E7%25AC%2594%25E8%25AE%25B0/</loc>
+<loc>/posts/%25E7%25AC%25AC%25E5%2585%25AD%25E7%25AB%25A0%25E7%25AC%2594%25E8%25AE%25B0/</loc>
 <lastmod>2018-01-01T00:00:00+08:00</lastmod>
 </url>
 <url>
@@ -25,17 +25,10 @@
 <lastmod>2017-12-10T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>/portfolio/</loc>
-</url>
-<url>
 <loc>/infovis/</loc>
 </url>
 <url>
 <loc>/</loc>
-</url>
-<url>
-<loc>/information/index.html</loc>
-<lastmod>2018-01-02T21:59:56+08:00</lastmod>
 </url>
 <url>
 <loc>/portfolio/wcy_logo/index.htm</loc>
