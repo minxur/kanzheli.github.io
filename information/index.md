@@ -24,12 +24,13 @@ image:
 <div class="row">
 <div class="col-md-3">
 
-#### 姓名：卫泯序
+
 
 <img src="https://minxur.github.io/images/infor.jpg" alt="just a picture" style="width: 50%" type="image/jpg">
 </div>
 <div class="col-md-9" markdown="1">
 
+#### 姓名：卫泯序
 - github:minxur
 - QQ:505832623
 - number:161013083
