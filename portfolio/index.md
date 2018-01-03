@@ -1,13 +1,13 @@
 
 ---
 layout: archive
-title: "网页设计"
+title: "网页设计作品集"
 date: 2018-1-1T14:25:45-04:00
 modified:
-excerpt: "我的网页设计作品"
+excerpt: "(๑•ᴗ•๑)"
 tags: []
 image: 
-  feature: base.jpg
+  feature: contact me.gif
   teaser:
 ---
 
