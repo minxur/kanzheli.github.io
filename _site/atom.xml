@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-05T00:05:16+08:00</updated><id>/</id><title>MINXUR&#39;BOLG</title><entry><title>第一次网页作业</title><link href="/portfolio/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/" rel="alternate" type="text/html" title="第一次网页作业" /><published>2018-01-02T00:00:00+08:00</published><updated>2018-01-02T00:00:00+08:00</updated><id>/portfolio/第一次网页作业</id><content type="html" xml:base="/portfolio/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/">&lt;div class=&quot;col-md-9&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-05T00:08:11+08:00</updated><id>/</id><title>MINXUR&#39;BOLG</title><entry><title>第一次网页作业</title><link href="/portfolio/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/" rel="alternate" type="text/html" title="第一次网页作业" /><published>2018-01-02T00:00:00+08:00</published><updated>2018-01-02T00:00:00+08:00</updated><id>/portfolio/第一次网页作业</id><content type="html" xml:base="/portfolio/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&quot;https://minxur.github.io/portfolio/c1homework/index.html&quot; target=&quot;_blank&quot;&gt; 点击查看作品&lt;/a&gt;&lt;/li&gt;
@@ -18,7 +18,7 @@
     &lt;li&gt;&lt;a href=&quot;http://www.elpsycongroo.cc/2017/10/22/china-earthquakes-visualization/&quot; target=&quot;_blank&quot;&gt; 点击查看作品&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 
-&lt;/div&gt;</content><summary>J组有关地震的专题</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;c1.gif&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第六章笔记</title><link href="/posts/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第六章笔记" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>/posts/第六章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>J组有关地震的专题</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;c1.gif&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第六章笔记</title><link href="/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第六章笔记" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>/rwd/第六章笔记</id><content type="html" xml:base="/rwd/%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
   &lt;h1 id=&quot;css3&quot;&gt;第六章	CSS3高级技术&lt;/h1&gt;
 
   &lt;h2 id=&quot;css3-1&quot;&gt;6.1 CSS3的文字阴影特效&lt;/h2&gt;
@@ -264,7 +264,7 @@ filter: drop-shadow(8px 8px 6px #333);
   &lt;ul&gt;
     &lt;li&gt;可以使用多个滤镜，用空格分隔它们即可。&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第六章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;css3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第五章笔记</title><link href="/posts/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2017-12-31T00:00:00+08:00</published><updated>2017-12-31T00:00:00+08:00</updated><id>/posts/第五章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第六章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;css3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第五章笔记</title><link href="/rwd/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第五章笔记" /><published>2017-12-31T00:00:00+08:00</published><updated>2017-12-31T00:00:00+08:00</updated><id>/rwd/第五章笔记</id><content type="html" xml:base="/rwd/%E7%AC%AC%E4%BA%94%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;css&quot;&gt;第五章	CSS新特性&lt;/h1&gt;
 
@@ -515,7 +515,7 @@ color: hsla(359, 99%, 50%, .5);
 &lt;/code&gt;&lt;/pre&gt;
   &lt;/div&gt;
 
-&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第五章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;css3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第四章笔记</title><link href="/posts/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第四章笔记" /><published>2017-12-30T00:00:00+08:00</published><updated>2017-12-30T00:00:00+08:00</updated><id>/posts/第四章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第五章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;css3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第四章笔记</title><link href="/rwd/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第四章笔记" /><published>2017-12-30T00:00:00+08:00</published><updated>2017-12-30T00:00:00+08:00</updated><id>/rwd/第四章笔记</id><content type="html" xml:base="/rwd/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;html5web&quot;&gt;第四章	HTML5与响应式Web设计&lt;/h1&gt;
 
@@ -643,7 +643,7 @@ you don&#39;t understand HTML5?&amp;lt;/video&amp;gt;
 
   &lt;p&gt;&lt;strong&gt;“离线优先”（offline-first）&lt;/strong&gt;：就是要保证网站和应用始终可以打开，即使不上网也能加载到内容&lt;/p&gt;
 
-&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第四章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;html.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第三章笔记</title><link href="/posts/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第三章笔记" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>/posts/第三章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第四章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;html.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第三章笔记</title><link href="/rwd/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第三章笔记" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>/rwd/第三章笔记</id><content type="html" xml:base="/rwd/%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;section&quot;&gt;第三章	弹性布局与响应式图片&lt;/h1&gt;
 
@@ -902,7 +902,7 @@ cake.&quot;&amp;gt;
 
   &lt;p&gt;Picture还支持提供可替换的图片格式&lt;/p&gt;
 
-&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第三章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;c3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第二章笔记</title><link href="/posts/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第二章笔记" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>/posts/第二章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第三章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;c3.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第二章笔记</title><link href="/rwd/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第二章笔记" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>/rwd/第二章笔记</id><content type="html" xml:base="/rwd/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;section&quot;&gt;第二章	媒体查询&lt;/h1&gt;
 
@@ -1017,7 +1017,7 @@ color 都是可用于媒体查询的特性。使用媒体查询，可以不必�
 我们把 initial-scale 又改回了1.0，意思是让移动浏览器在其视口的宽度中渲染网
 页。将 width 设置为 device-width 就是要在所有支持的移动浏览器中，以百分之百的视口宽度来渲染页面&lt;/p&gt;
 
-&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第一章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;media.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第一章笔记</title><link href="/posts/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第一章笔记" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>/posts/第一章笔记</id><content type="html" xml:base="/posts/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;/div&gt;</content><summary>《响应式Web设计+HTML5和CSS3实战+第2版》第一章的笔记和大纲</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;media.jpg&quot;, &quot;feature&quot;=&gt;nil}" /></entry><entry><title>第一章笔记</title><link href="/rwd/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="第一章笔记" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>/rwd/第一章笔记</id><content type="html" xml:base="/rwd/%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%94%E8%AE%B0/">&lt;div class=&quot;col-md-9&quot;&gt;
 
   &lt;h1 id=&quot;web&quot;&gt;第一章	响应式Web设计&lt;/h1&gt;
 
