@@ -9,13 +9,9 @@ tags: []
 ---
 
 <div class="row img-rounded" style="padding:40px; box-shadow: 10px 10px 5px #8C2E1D; border: 1px solid #8C2E1D;">
-<div class="row">		 
-<div class="col-md-20">
-<div style="background:#8C2E1D; color:white" class="btn" markdown="1">
 
-## 个人信息
 
-</div>
+
 </div>
 
 <div class="row">
