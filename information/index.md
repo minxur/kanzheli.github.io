@@ -8,7 +8,7 @@ excerpt: ""
 tags: []
 ---
 
-<div class="row img-rounded" style="padding:50px; box-shadow: 10px 10px 5px #8C2E1D; border: 1px solid #8C2E1D;">
+<div class="row img-rounded" style="padding:40px; box-shadow: 10px 10px 5px #8C2E1D; border: 1px solid #8C2E1D;">
 <div class="row">		 
 <div class="col-md-20">
 <div style="background:#8C2E1D; color:white" class="btn" markdown="1">
@@ -21,7 +21,7 @@ tags: []
 <div class="row">
 <div class="col-md-15">
 
-<img src="https://minxur.github.io/images/infor.jpg" alt="just a picture" style="width: 50%" type="image/jpg">
+<img src="https://minxur.github.io/images/infor.jpg" alt="just a picture" style="width: 30%" type="image/jpg">
 
 
 </div>
