@@ -3,7 +3,7 @@
 title: MINXUR'BOLG
 description: 
 logo: # 个人的logo120x120 px default image used for Twitter summary card
-teaser: base_teaser.jpg
+teaser: information.jpg
 locale: zh_CN # 本地化翻譯
 url:
 feed:
@@ -33,7 +33,7 @@ owner:
     ad-client:
     ad-slot:
   bio: 中大南方16级网络与新媒体学生
-  avatar: info.jpg
+  avatar: information.jpg
   disqus-shortname:
 
 

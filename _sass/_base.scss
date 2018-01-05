@@ -15,11 +15,11 @@ body {
 }
 
 p {
-	@include font-size(18,yes,28);
+	@include font-size(20,yes,30);
 }
 
 li {
-	@include font-size(16,12,24);
+	@include font-size(18,14,26);
 }
 
 /* Headings */
@@ -29,22 +29,22 @@ h1, h2, h3, h4, h5, h6 {
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 h1 {
-	@include font-size(36);
+	@include font-size(42);
 }
 h2 {
-	@include font-size(32);
-}
-h3 {
 	@include font-size(28);
 }
-h4 {
+h3 {
 	@include font-size(24);
 }
-h5 {
+h4 {
 	@include font-size(20);
 }
-h6 {
+h5 {
 	@include font-size(18);
+}
+h6 {
+	@include font-size(16);
 }
 
 /* Underlined text */
@@ -79,13 +79,13 @@ blockquote {
   border-left: 6px solid $info-color;
   p {
     font-family: $alt-font;
-    @include font-size(24);
+    @include font-size(25);
   }
   cite {
     font-family: $base-font;
     font-weight: 700;
     font-style: normal;
-    @include font-size(18);
+    @include font-size(20);
   }
 }
 
@@ -98,7 +98,7 @@ pre {
 }
 p code,
 li code {
-	@include font-size(16,no);
+	@include font-size(18,no);
 	color: $text-color;
 	white-space: nowrap;
 	margin: 0 2px;

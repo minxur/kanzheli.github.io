@@ -17,7 +17,7 @@ tags: []
 <div class="row">
 <div class="col-md-15">
 
-<img src="https://minxur.github.io/images/infor.jpg" alt="just a picture" style="width: 30%" type="image/jpg">
+<img src="https://minxur.github.io/images/information.jpg" alt="just a picture" style="width: 30%" type="image/jpg">
 
 
 </div>

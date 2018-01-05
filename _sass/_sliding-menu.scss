@@ -32,7 +32,7 @@
   background: $primary-color;
   outline: 0;
   padding: 0;
-  border: 2.5px solid transparent;
+  border: 2px solid transparent;
   cursor: pointer;
   z-index: 20;
   box-sizing: border-box;
@@ -88,9 +88,9 @@
       margin-right: 20%;
     }
     color: $white;
-    @include font-size(14);
+    @include font-size(12);
     @include media($small) {
-      @include font-size(16);
+      @include font-size(14);
     }
     span {
       display: block;
@@ -148,20 +148,20 @@
       display: block;
       margin-left: 60px;
       font-family: $alt-font;
-      @include font-size(24,no);
-      font-weight: 700;
+      @include font-size(25,no);
+      font-weight: 500;
       @include media($small) {
         margin-left: 170px;
-        @include font-size(32,no);
+        @include font-size(30,no);
       }
     }
     .excerpt {
       margin-top: 0;
-      margin-left: 60px;
-      @include font-size(14,no);
+      margin-left: 50px;
+      @include font-size(10,no);
       @include media($small) {
-        margin-left: 170px;
-        @include font-size(16,no);
+        margin-left: 150px;
+        @include font-size(13,no);
       }
 	 .title:hover,excerpt:hover,.teaser:hover{
 		color:$white
@@ -175,7 +175,7 @@
     font-style: italic;
   }
   .menu-item .home a {
-    @include font-size(32);
+    @include font-size(35);
   }
 }
 

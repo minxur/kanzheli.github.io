@@ -6,7 +6,7 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	: STFangsong,FangSong,STFangsong,serif;
+$base-font                   	: STsong,Song,STsong,serif;
 $heading-font                	: STHeiti,SimHei,Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
@@ -19,28 +19,27 @@ $border-radius               	: 3px;
 
 /*
    Color variables
-   Background:	#FFFDF2
-   text-color: 	#13141B
+   Background:	#000
+   text-color: 	#fff
    ========================================================================== */
 
 $white                        : #fff;
 $black                        : #000;
 
-$body-color                  	: #F2FFC7;
-
-$text-color                  	: #000;
+$body-color                  	: #000A2E;
+$text-color                  	: #fff;
 $caption-color                : mix(#000, $text-color, 45%);
 
-$base-color                  	: #13141B;
+$base-color                  	: #fff;
 $comp-color                  	: complement($base-color);
-$border-color                	: #9FB1CC;
-$link-color                  	: #94A0B2;
+$border-color                	: #fff;
+$link-color                  	: #FFEBF2;
 
-$primary-color               	: #13141B;
-$success-color               	: #2ecc71;
+$primary-color               	: #fff;
+$success-color               	: #fff;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
-$info-color                  	: #3498db;
+$info-color                  	: #FFEBF2;
 
 $table-border-color          	: $border-color;
 $table-border                	: 2px solid $table-border-color;
@@ -82,13 +81,13 @@ $form-font-size              	: $doc-font-size;
    Sliding menu navigation variables
    ========================================================================== */
 
-$sliding-menu-border-color	 	 : #B24233;
-$sliding-menu-background 		   :#B24233;
-$sliding-menu-color 	 		     :#F2FFC7;
-$sliding-menu-background-hover : 	#F2FFC7;
-$sliding-menu-color-hover	 	   : #F2FFC7;
+$sliding-menu-border-color	 	 : #fff;
+$sliding-menu-background 		   :#000;
+$sliding-menu-color 	 		     :#fff;
+$sliding-menu-background-hover : 	#fff;
+$sliding-menu-color-hover	 	   : #000;
 $sliding-menu-border   			   : 2px solid $sliding-menu-border-color;
-$button-size		         	     : 25px;
+$button-size		         	     : 20px;
 $transition						         : 0.5s; // increase this to see the transformations in slow-motion
 $sliding-menu-animation        : all 500ms cubic-bezier(.86,.01,.77,.78);
 

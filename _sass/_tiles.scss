@@ -17,11 +17,11 @@
     color: lighten($text-color,25);
   }
   .post-title {
-    @include font-size(18,no);
+    @include font-size(25,no);
   }
   .post-excerpt {
-    @include font-size(16);
-	margin-top: 2rem;
+    @include font-size(12);
+	margin-top: 5rem;
   }
   .post-teaser {
     position: relative;
@@ -29,8 +29,8 @@
     &:after {
       content: '';
       position: absolute;
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 80%;
       top: 0;
       left: 0;
       background: rgba($base-color,0);
