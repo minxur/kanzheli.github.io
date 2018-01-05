@@ -9,7 +9,7 @@
 body {
 	font-family: $base-font;
 	color: $text-color;
-	background-image: linear-gradient(rgba(115, 115, 166, 0.3), rgba(115, 115, 166, 0.1)),
+	background-image: linear-gradient(rgba(14,15,48, 0.3), rgba(14,15,48,0.1)),
 	url('../images/bg.jpg');
 	@include font-size(16);
 }
@@ -251,7 +251,7 @@ hr {
 	margin: 0px + (2 * $doc-line-height) 0;
 	margin: 0rem + ((2 * $doc-line-height) / $doc-font-size) 0;
 	padding: 0;
-	height: 5px;
+	height: 2px;
 	border: 0;
 	&:before {
 		content: '';
