@@ -3,25 +3,25 @@
 - title: 网页设计作品
   url: /portfolio/ 
   excerpt: ""
-  image: 3.gif
+  image: menu_portfolio.jpg
 
 - title: 信息可视化作品
   url: /infovis/ 
   excerpt: ""
-  image: 4.jpg
+  image: menu_infovis.jpg
  
 - title: 可视化笔记
   url: /posts/infovis/ 
   excerpt: ""
-  image: 1.jpg
+  image: menu_post_infovis.jpg
   
 - title: 网页制作笔记
   url: /posts/rwd/ 
   excerpt: ""
-  image: 1.jpg
+  image: menu_post_rwd.jpg
   
 - title: 关于我
   url: /information/ 
   excerpt: "我的信息"
-  image: 2.jpg
+  image: menu_information.jpg
   
