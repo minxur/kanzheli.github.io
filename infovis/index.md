@@ -9,12 +9,12 @@ image:
   feature: base.jpg
   teaser: base.jpg
 ---
-
+<div class="col-md-9" markdown="1" >
 
 ![image](http://minxur.github.io/images/tableau_xiyou.jpg)
 
 
-
+</div>
 
 
 
